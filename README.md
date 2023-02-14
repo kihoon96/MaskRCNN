@@ -8,3 +8,5 @@ https://docs.google.com/presentation/d/1OyoITuqV_OD0Y37HTnhrMvYxfm3jYLLiMSrDXHct
 
 # Week 1
 TODO:Implement dataloader of COCO, backbone models
+
+02.14 implemented coco dataloader with img, bboxes
