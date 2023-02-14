@@ -19,22 +19,22 @@ test_img_path = osp.join(root_path, 'images', 'val2017')
 class Dataloader_COCO(torch.utils.data.Dataset):
     def __init__(self, mode):
         if mode == 'train':
-            coco = COCO(train_annot_path)
-            img_path = train_img_path
+            self.coco = COCO(train_annot_path)
+            self.img_path = train_img_path
         else:
-            coco = COCO(test_annot_path)
-            img_path = test_img_path
+            self.coco = COCO(test_annot_path)
+            self.img_path = test_img_path
         self.catIds = coco.getCatIds(catNms=['person'])
-        self.imgIds = coco.getImgIds(catIds=catIds)
+        self.imgIds = coco.getImgIds(catIds=self.catIds)
 
     def __getitem__(self, index):
-        img = coco.loadImgs(imgIds[index])[0]
+        img = self.coco.loadImgs(imgIds[index])[0]
         # img rgb to bgr
-        img_file_path = osp.join(img_path, img['file_name'])
+        img_file_path = osp.join(self.img_path, img['file_name'])
         input_img = cv2.imread(img_file_path, cv2.IMREAD_COLOR | cv2.IMREAD_IGNORE_ORIENTATION)[:,:,::-1]
 
-        annIds = coco.getAnnIds(imgIds=img['id'], catIds=self.catIds, iscrowd=None)
-        anns = coco.loadAnns(annIds)
+        annIds = self.coco.getAnnIds(imgIds=img['id'], catIds=self.catIds, iscrowd=None)
+        anns = self.coco.loadAnns(annIds)
         for ann in anns:
             bboxes.append(ann['bbox'])
 
