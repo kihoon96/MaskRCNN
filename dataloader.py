@@ -27,8 +27,6 @@ class Dataloader_COCO(torch.utils.data.Dataset):
         self.catIds = self.coco.getCatIds(catNms=['person'])
         self.imgIds = self.coco.getImgIds(catIds=self.catIds)
 
-        self.datas = self._load_data()
-
     def __getitem__(self, index):
         img = self.coco.loadImgs(self.imgIds[index])[0]
         # img rgb to bgr
@@ -45,7 +43,4 @@ class Dataloader_COCO(torch.utils.data.Dataset):
 
     def __len__(self):
         return len(self.imgIds)
-
-    def _load_data(self):
-        datalist = []
         
