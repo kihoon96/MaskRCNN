@@ -10,3 +10,9 @@ https://docs.google.com/presentation/d/1OyoITuqV_OD0Y37HTnhrMvYxfm3jYLLiMSrDXHct
 TODO:Implement dataloader of COCO, backbone models
 
 02.14 implemented coco dataloader with img, bboxes
+
+# Week 2
+TODO:
+- skeleton list up, outline
+- dataloader augmentation(detectron2 ref.) +bbox transformation
+
