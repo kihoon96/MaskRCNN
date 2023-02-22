@@ -16,3 +16,4 @@ TODO:
 - skeleton list up, outline
 - dataloader augmentation(detectron2 ref.) +bbox transformation
 
+02.21 Used Gyeongsik's codes as a reference and created baseline skeletons based on them

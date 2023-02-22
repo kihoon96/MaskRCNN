@@ -16,8 +16,13 @@ test_annot_path = osp.join(root_path, 'annotations', 'person_keypoints_val2017.j
 train_img_path = osp.join(root_path, 'images', 'train2017')
 test_img_path = osp.join(root_path, 'images', 'val2017')
     
-class Dataloader_COCO(torch.utils.data.Dataset):
-    def __init__(self, mode):
+class MSCOCO(torch.utils.data.Dataset):
+    def __init__(self, transform, mode):
+        
+        self.mode = mode
+        self.transform = transform
+
+        
         if mode == 'train':
             self.coco = COCO(train_annot_path)
             self.img_path = train_img_path
@@ -29,17 +34,32 @@ class Dataloader_COCO(torch.utils.data.Dataset):
 
     def __getitem__(self, index):
         img = self.coco.loadImgs(self.imgIds[index])[0]
-        # img rgb to bgr
+        # img cv2 bgr to rgb
         img_file_path = osp.join(self.img_path, img['file_name'])
-        input_img = cv2.imread(img_file_path, cv2.IMREAD_COLOR | cv2.IMREAD_IGNORE_ORIENTATION)[:,:,::-1]
+        input_img = np.ascontiguousarray(cv2.imread(img_file_path, cv2.IMREAD_COLOR | cv2.IMREAD_IGNORE_ORIENTATION)[:,:,::-1])
+        input_img = self.transform(input_img)
 
         annIds = self.coco.getAnnIds(imgIds=img['id'], catIds=self.catIds, iscrowd=False)
         anns = self.coco.loadAnns(annIds)
-        bboxes = []
-        for ann in anns:
-            bboxes.append(ann['bbox'])
 
-        return input_img, bboxes
+
+        bboxes = [ann['bbox'] for ann in anns]
+        bboxes = np.array(bboxes, dtype = np.float32)
+
+        num_max_bbox = 20
+        dummy_bbox = np.zeros((num_max_bbox-bboxes.shape[0], 4))
+
+        num_valid_bbox = float(bboxes.shape[0])
+        bboxes = np.concatenate([bboxes, dummy_bbox])
+
+        inputs = {'img': input_img}
+        targets = {'bboxes': bboxes}
+        meta_info = {'num_valid_bbox': num_valid_bbox}
+
+        if(num_valid_bbox > 20):
+            raise ValueError('bbox over 20 need more dummy padding')
+        
+        return inputs, targets, meta_info
 
     def __len__(self):
         return len(self.imgIds)
