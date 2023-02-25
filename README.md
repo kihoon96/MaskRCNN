@@ -18,6 +18,9 @@ TODO:
 
 02.21 Used Gyeongsik's codes as a reference and created baseline skeletons based on them
 
-02.24 FPN and Anchor Generation code Implemented
+02.24
+- Image preprocessing Implemented(resize to 1024**2, zeropadding, transformations)
+
+- FPN and Anchor Generation code Implemented
 
 02.25 TODO: IoU implementation, positive negative anchor implementation.
