@@ -25,10 +25,21 @@ TODO:
 ![Alt text](/assets/orig.png?raw=true "Original Image")
 ## transformed image (1024x1024 zeropadded aspect_remained)
 ![Alt text](/assets/transformed.png?raw=true "Transformed Image")
+## bbox also transformed properly under image preprocessing
+![Screenshot](/assets/bbox_under_transformation.png)
 
 
 - FPN and Anchor Generation code Implemented
 
+## anchors under various feature levels
+![Screenshot](/assets/4.png)
+![Screenshot](/assets/8.png)
+![Screenshot](/assets/16.png)
+![Screenshot](/assets/32.png)
+![Screenshot](/assets/64.png)
+
+
+## whole_anchors
 ![Screenshot](/assets/whole_anchors.png)
 
 02.25 TODO: IoU implementation, positive negative anchor implementation.
