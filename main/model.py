@@ -7,7 +7,9 @@ from torch.nn import functional as F
 
 from nets.fpn import FPN
 from utils.anchor_generators import generate_cell_anchors
-from utils.IoU import get_IoU
+from utils.IoU import get_IoU, area
+
+from config import cfg
 
 #from nets.resnet import ResNetBackbone
 #from nets.module import PoseNet, Pose2Feat, MeshNet, ParamRegressor
@@ -35,22 +37,24 @@ class Model(nn.Module):
             self.anchors.append((self.cell_anchors.reshape(-1,2,2)[None,:,:,:] + coords[:,None,None,:]).reshape(-1,4)) # (N_pixel x N_cell_anchor) x 4
             # p5, p4, p3, p2, p6
 
+
+
         self.trainable_modules = [self.backbone, self.rpn, self.head]
     
     def forward(self, inputs, targets, meta_info, mode):
 
-        gt_bboxes = targets['bboxes']
-        num_valid_bbox = meta_info['num_valid_bbox']
-        import pdb; pdb.set_trace()
-        
-        #for anchors in self.anchors:
-
-
-        for gt_bbox in gt_bboxes:
-            for anchor in self.anchors:
-
-                print(get_IoU(gt_bbox, anchor))
-
+        for bi in range(cfg.train_batch_size):
+            gt_bboxes = targets['bboxes'][bi]
+            num_valid_bbox = meta_info['num_valid_bbox'][bi]
+            gt_bboxes_trimmed = gt_bboxes[:num_valid_bbox]
+            for gt_bbox in gt_bboxes_trimmed:
+                area(gt_bboxes_trimmed)
+                for anchor in self.anchors:
+                    for _anchor in anchor:
+                        IoU = get_IoU(gt_bbox, _anchor)
+                        if IoU > 0:
+                            print(IoU)
+                            import pdb; pdb.set_trace()
 
 
         out = self.backbone(inputs['img'])
@@ -67,8 +71,6 @@ class Model(nn.Module):
                 for ___anchor in __anchor:
                     cvimg = cv2.rectangle(cvimg.copy(), ___anchor[:2], ___anchor[2:], (255,0,0), 3)                
             cv2.imwrite("whole_anchors.png", cvimg)
-        
-        import pdb; pdb.set_trace()
 
         return
 

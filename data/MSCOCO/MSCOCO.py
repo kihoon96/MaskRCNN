@@ -72,7 +72,7 @@ class MSCOCO(torch.utils.data.Dataset):
 
 
         dummy_bbox = np.zeros((cfg.num_max_bbox-bboxes.shape[0], 4))
-        num_valid_bbox = float(bboxes.shape[0])
+        num_valid_bbox = int(bboxes.shape[0])
         bboxes = np.concatenate([bboxes, dummy_bbox])
 
         input_img = self.transform(input_img)
