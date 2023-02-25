@@ -24,6 +24,9 @@ TODO:
 ![Alt text](/assets/orig.png?raw=true "Original Image")
 ![Alt text](/assets/transformed.png?raw=true "Transformed Image")
 
+
 - FPN and Anchor Generation code Implemented
+
+![Screenshot](/assets/whole_anchors.png)
 
 02.25 TODO: IoU implementation, positive negative anchor implementation.
