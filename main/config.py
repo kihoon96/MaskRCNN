@@ -13,8 +13,11 @@ class Config:
     resnet_type = 50 # 50, 101, 152
     
     ## input, output
-    input_img_shape = (256, 256) 
+    input_img_shape = (1024, 1024) 
     output_hm_shape = (64, 64, 64)
+    num_max_bbox = 20
+    anchor_sizes =(32,64,128,256,512)
+    anchor_aspect_ratios =(0.5,1.,2.)
     
     sigma = 2.5
 
@@ -23,7 +26,7 @@ class Config:
     end_epoch = 13
     lr = 1e-4
     lr_dec_factor = 10
-    train_batch_size = 1
+    train_batch_size = 4
     normal_loss_weight = 0.1
 
     ## testing config

@@ -48,7 +48,8 @@ class Trainer(Base):
     def get_optimizer(self, model):
         total_params = []
         for module in model.module.trainable_modules:
-            total_params += list(module.parameters())
+            if module is not None:
+                total_params += list(module.parameters())
         optimizer = torch.optim.Adam(total_params, lr=cfg.lr)
         return optimizer
 
@@ -98,7 +99,7 @@ class Trainer(Base):
     def _make_model(self):
         # prepare network
         self.logger.info("Creating graph and optimizer...")
-        model = get_model(self.vertex_num, self.joint_num, 'train')
+        model = get_model('train')
         model = DataParallel(model).cuda()
         optimizer = self.get_optimizer(model)
         if cfg.continue_train:

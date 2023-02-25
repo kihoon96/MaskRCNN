@@ -1,0 +1,12 @@
+import numpy
+
+#xyxy
+def area(box):
+     return (box[2] - box[0]) * (box[3] - box[1])
+
+#xyxy
+def IoU(box1, box2):
+        if box1[0] <= box2[0] and box1[1] <= box2[1]:
+            h_union = box2[1] - box1[3]
+            w_union = 
+    return

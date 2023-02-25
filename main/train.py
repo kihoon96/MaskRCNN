@@ -33,7 +33,7 @@ def main():
 
     trainer = Trainer()
     trainer._make_batch_generator()
-    # trainer._make_model()
+    trainer._make_model()
 
     # train
     # for epoch in range(trainer.start_epoch, cfg.end_epoch):
@@ -42,27 +42,21 @@ def main():
         trainer.tot_timer.tic()
         trainer.read_timer.tic()
         for itr, (inputs, targets, meta_info) in enumerate(trainer.batch_generator):
+            
 
+            # bs = inputs['img'].shape[0]
+            # for bi in range(bs):
+            #     cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)
+            #     num_valid_bbox = meta_info['num_valid_bbox'][bi]
+            #     for bbi, bbox in enumerate(targets['bboxes'][bi]):
+            #         if bbi >= num_valid_bbox:
+            #             break
+            #         bbox_vis = copy.deepcopy(bbox.cpu().numpy())
+            #         bbox_vis[2:] += bbox_vis[:2]
+            #         bbox_vis = bbox_vis.astype(int)
+            #         cvimg = cv2.rectangle(cvimg.copy(), bbox_vis[:2], bbox_vis[2:], (255,0,0), 3)
 
-            bs = inputs['img'].shape[0]
-            for bi in range(bs):
-                cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)
-                num_valid_bbox = meta_info['num_valid_bbox'][bi]
-                for bbi, bbox in enumerate(targets['bboxes'][bi]):
-                    if bbi >= num_valid_bbox:
-                        break
-                    bbox_vis = copy.deepcopy(bbox.cpu().numpy())
-                    bbox_vis[2:] += bbox_vis[:2]
-                    bbox_vis = bbox_vis.astype(int)
-                    import pdb;pdb.set_trace()
-                    cvimg = cv2.rectangle(cvimg.copy(), bbox_vis[:2], bbox_vis[2:], (255,0,0), 3)
-
-                cv2.imwrite('test.png', cvimg)
-
-
-
-
-                import pdb;pdb.set_trace()
+            #     cv2.imwrite('test.png', cvimg)
 
             trainer.read_timer.toc()
             trainer.gpu_timer.tic()
