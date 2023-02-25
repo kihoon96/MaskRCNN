@@ -25,9 +25,10 @@ class Model(nn.Module):
     
     def forward(self, inputs, targets, meta_info, mode):
 
-        out= self.backbone(inputs['img'])
+        out = self.backbone(inputs['img'])
 
         anchors = []
+        import pdb; pdb.set_trace()
         for fm_name, fm in out.items():
             ## assume rectangle feature map and rectangle input img shape
             fm_res = fm.shape[-1]
@@ -36,6 +37,7 @@ class Model(nn.Module):
             grid_y, grid_x = torch.meshgrid(xx,yy)
             coords = torch.stack([grid_x, grid_y]).permute(1,2,0).reshape(-1,2).cuda() # N_pixel x 2
 
+            # 여기서 부터 이해해야함
             anchors.append((self.cell_anchors.reshape(-1,2,2)[None,:,:,:] + coords[:,None,None,:]).reshape(-1,4)) # (N_pixel x N_cell_anchor) x 4
             # p5, p4, p3, p2, p6
 

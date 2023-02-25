@@ -45,4 +45,10 @@ TODO:
 ## whole_anchors
 ![Screenshot](/assets/whole_anchors.png)
 
-02.25 TODO: IoU implementation, positive negative anchor implementation.
+02.25 Implemented IoU function
+
+02.25
+TODO
+- anchor generation optimization(out to init)
+- pos&neg(IoU>0.7) anchor implementation at model forward and vis
+- RPN bbox_reg, objectiveness head implementation
