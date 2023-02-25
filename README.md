@@ -11,6 +11,9 @@ TODO:Implement dataloader of COCO, backbone models
 
 02.14 implemented coco dataloader with img, bboxes
 
+## GT_bboxes visualized
+![Screenshot](/assets/gt_bboxes.png)
+
 # Week 2
 TODO:
 - skeleton list up, outline
