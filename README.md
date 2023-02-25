@@ -21,7 +21,9 @@ TODO:
 02.24
 - Image preprocessing Implemented(resize to 1024**2, zeropadding, transformations)
 
+## original image
 ![Alt text](/assets/orig.png?raw=true "Original Image")
+## transformed image (1024x1024 zeropadded aspect_remained)
 ![Alt text](/assets/transformed.png?raw=true "Transformed Image")
 
 
