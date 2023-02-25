@@ -21,6 +21,9 @@ TODO:
 02.24
 - Image preprocessing Implemented(resize to 1024**2, zeropadding, transformations)
 
+![Alt text](/assets/orig.png?raw=true "Original Image")
+![Alt text](/assets/transformed.png?raw=true "Transformed Image")
+
 - FPN and Anchor Generation code Implemented
 
 02.25 TODO: IoU implementation, positive negative anchor implementation.
