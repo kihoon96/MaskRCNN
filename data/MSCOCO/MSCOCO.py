@@ -26,8 +26,7 @@ class MSCOCO(torch.utils.data.Dataset):
         
         self.mode = mode
         self.transform = transform
-
-        
+    
         if mode == 'train':
             self.coco = COCO(train_annot_path)
             self.img_path = train_img_path

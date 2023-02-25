@@ -6,16 +6,16 @@ def area(box):
 
 #xyxy
 def get_IoU(box1, box2):
-    if box1[0] <= box2[0] and box1[1] <= box2[1]:
+    if (box1[0] <= box2[0]) and (box1[1] <= box2[1]):
         w_union = box2[0] - box1[2]
         h_union = box2[1] - box1[3]
-    elif box1[0] <= box2[0] and box1[1] > box2[1]:
+    elif (box1[0] <= box2[0]) and (box1[1] > box2[1]):
         w_union = box2[0] - box1[2]
         h_union = box1[1] - box2[3]
-    elif box1[0] > box2[0] and box1[1] > box2[1]:
+    elif (box1[0] > box2[0]) and (box1[1] > box2[1]):
         w_union = box1[0] - box2[2]
         h_union = box1[1] - box2[3]
-    elif box1[0] > box2[0] and box1[1] <= box2[1]:
+    elif (box1[0] > box2[0]) and (box1[1] <= box2[1]):
         w_union = box1[0] - box2[2]
         h_union = box2[1] - box1[3]
     else:

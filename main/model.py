@@ -7,6 +7,7 @@ from torch.nn import functional as F
 
 from nets.fpn import FPN
 from utils.anchor_generators import generate_cell_anchors
+from utils.IoU import get_IoU
 
 #from nets.resnet import ResNetBackbone
 #from nets.module import PoseNet, Pose2Feat, MeshNet, ParamRegressor
@@ -21,31 +22,44 @@ class Model(nn.Module):
         self.head = head
         self.cell_anchors = generate_cell_anchors().cuda()
 
-        self.trainable_modules = [self.backbone, self.rpn, self.head]
-    
-    def forward(self, inputs, targets, meta_info, mode):
-
-        out = self.backbone(inputs['img'])
-
-        anchors = []
-        import pdb; pdb.set_trace()
-        for fm_name, fm in out.items():
+        self.anchors = []
+        anchor_res = [16, 32, 64, 128, 256]
+        for fm_res in anchor_res:
             ## assume rectangle feature map and rectangle input img shape
-            fm_res = fm.shape[-1]
             xx = torch.arange(fm_res)
             yy = torch.arange(fm_res)
             grid_y, grid_x = torch.meshgrid(xx,yy)
             coords = torch.stack([grid_x, grid_y]).permute(1,2,0).reshape(-1,2).cuda() # N_pixel x 2
 
-            # 여기서 부터 이해해야함
-            anchors.append((self.cell_anchors.reshape(-1,2,2)[None,:,:,:] + coords[:,None,None,:]).reshape(-1,4)) # (N_pixel x N_cell_anchor) x 4
+            # ??
+            self.anchors.append((self.cell_anchors.reshape(-1,2,2)[None,:,:,:] + coords[:,None,None,:]).reshape(-1,4)) # (N_pixel x N_cell_anchor) x 4
             # p5, p4, p3, p2, p6
 
+        self.trainable_modules = [self.backbone, self.rpn, self.head]
+    
+    def forward(self, inputs, targets, meta_info, mode):
+
+        gt_bboxes = targets['bboxes']
+        num_valid_bbox = meta_info['num_valid_bbox']
+        import pdb; pdb.set_trace()
+        
+        #for anchors in self.anchors:
+
+
+        for gt_bbox in gt_bboxes:
+            for anchor in self.anchors:
+
+                print(get_IoU(gt_bbox, anchor))
+
+
+
+        out = self.backbone(inputs['img'])
+
         # anchor visualize
-        vis = False
-        cvimg = (inputs['img'][0].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+        vis = True
         if vis:
-            for anchor, scale in zip(anchors, (32,16,8,4,64)):
+            cvimg = (inputs['img'][0].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+            for anchor, scale in zip(self.anchors, (64,32,16,8,4)):
                 _anchor = (anchor * scale).cpu().numpy().astype(int)
                 _anchor = _anchor.reshape(-1,3,4)
 
@@ -53,17 +67,9 @@ class Model(nn.Module):
                 for ___anchor in __anchor:
                     cvimg = cv2.rectangle(cvimg.copy(), ___anchor[:2], ___anchor[2:], (255,0,0), 3)                
             cv2.imwrite("whole_anchors.png", cvimg)
+        
+        import pdb; pdb.set_trace()
 
-        import pdb;pdb.set_trace()
-
-
-        # 
-
-
-
-
-
-        feat = self.backbone(inputs['img'])
         return
 
 def init_weights(m):
