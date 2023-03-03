@@ -57,5 +57,4 @@ TODO:
 
 
 TODO
-- RPN optimize (no for loops use broadcast of tensors)
 - RPN bbox_reg, objectiveness head implementation
