@@ -45,7 +45,9 @@ TODO:
 ## whole_anchors
 ![Screenshot](/assets/whole_anchors.png)
 
-02.25 Implemented IoU function
+02.25 Implemented IoU(simple) function
+
+# Week3
 
 03.02 Implemented and Visualized Pos&Neg anchor(IoU > 0.5)
 03.03 Implemented IoU tensor broadcasting instead of for loops

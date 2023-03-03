@@ -60,10 +60,10 @@ class Model(nn.Module):
                 _anchor = _anchor.reshape(-1,4)
                 IoUs = get_IoU_tensor(gt_bboxes_trimmed, _anchor) # N x M
                 positive_anchors = (IoUs > 0.5).nonzero() # positive_anchor_num x 2(x,y)
-                print("bi: ", bi, ", scale: ", scale)
-                print(positive_anchors)            
+                #print("bi: ", bi, ", scale: ", scale)
+                #print(positive_anchors)            
 
-                vis = True
+                vis = False
                 if vis:
                     cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
                     for (gt_box_num, anchor_num) in positive_anchors:
@@ -76,40 +76,6 @@ class Model(nn.Module):
                                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,255), 3)
 
                     cv2.imwrite(f"test.png", cvimg)
-                    import pdb; pdb.set_trace()
-
-            # for gt_bbox in gt_bboxes_trimmed:
-            #     #area(gt_bbox)
-            #     for anchor, scale in zip(self.anchors, [64,32,16,8,4]):
-            #         _anchor = (anchor * scale)
-            #         _anchor = _anchor.reshape(-1,4)
-            #         for __anchor in _anchor:
-            #             IoU = get_IoU(gt_bbox, __anchor)
-            #             if IoU > 0.7:
-            #                 positive_anchors.append(__anchor)
-
-            # vis0 = False
-            # if vis0:
-            #     cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
-            #     #cmap = plt.get_cmap('hsv')
-            #     #colors = [cmap(i) for i in np.linspace(0,1, len(positive_anchors))]
-            #     #colors = [(c[2] * 255, c[1] * 255, c[0] * 255) for c in colors]
-
-            #     for gt_bbox in gt_bboxes_trimmed:
-            #         gt_bbox = gt_bbox.cpu().numpy().astype(int)
-            #         cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,0,255), 3)
-
-            #     for pa in positive_anchors:
-            #         pa = pa.cpu().numpy().astype(int)    
-            #         cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 1)
-                
-            #     cv2.imwrite(f"test.png", cvimg)
-
-            #import pdb; pdb.set_trace()
-
-
-
-
 
         out = self.backbone(inputs['img'])
         import pdb; pdb.set_trace()
