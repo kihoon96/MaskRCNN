@@ -47,8 +47,15 @@ TODO:
 
 02.25 Implemented IoU function
 
-02.25
+03.02 Implemented and Visualized Pos&Neg anchor(IoU > 0.5)
+03.03 Implemented IoU tensor broadcasting instead of for loops
+
+## positive anchors under various feature levels
+![Screenshot](/assets/pos64.png)
+![Screenshot](/assets/pos16.png)
+![Screenshot](/assets/pos8.png)
+
+
 TODO
-- anchor generation optimization(out to init)
-- pos&neg(IoU>0.7) anchor implementation at model forward and vis
+- RPN optimize (no for loops use broadcast of tensors)
 - RPN bbox_reg, objectiveness head implementation

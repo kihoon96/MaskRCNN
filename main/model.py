@@ -6,8 +6,9 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 from nets.fpn import FPN
+from nets.rpn import RPN
 from utils.anchor_generators import generate_cell_anchors
-from utils.IoU import get_IoU, area
+from utils.IoU import get_IoU, area, get_IoU_tensor
 
 from config import cfg
 
@@ -15,6 +16,8 @@ from config import cfg
 #from nets.module import PoseNet, Pose2Feat, MeshNet, ParamRegressor
 #from nets.loss import CoordLoss, ParamLoss, NormalVectorLoss, EdgeLengthLoss
 #import math
+
+import matplotlib.pyplot as plt
 
 class Model(nn.Module):
     def __init__(self, backbone, rpn, head):
@@ -33,6 +36,7 @@ class Model(nn.Module):
             grid_y, grid_x = torch.meshgrid(xx,yy)
             coords = torch.stack([grid_x, grid_y]).permute(1,2,0).reshape(-1,2).cuda() # N_pixel x 2
 
+
             # ??
             self.anchors.append((self.cell_anchors.reshape(-1,2,2)[None,:,:,:] + coords[:,None,None,:]).reshape(-1,4)) # (N_pixel x N_cell_anchor) x 4
             # p5, p4, p3, p2, p6
@@ -42,25 +46,76 @@ class Model(nn.Module):
         self.trainable_modules = [self.backbone, self.rpn, self.head]
     
     def forward(self, inputs, targets, meta_info, mode):
-
         for bi in range(cfg.train_batch_size):
+            positive_anchors = []
             gt_bboxes = targets['bboxes'][bi]
             num_valid_bbox = meta_info['num_valid_bbox'][bi]
             gt_bboxes_trimmed = gt_bboxes[:num_valid_bbox]
-            for gt_bbox in gt_bboxes_trimmed:
-                area(gt_bboxes_trimmed)
-                for anchor in self.anchors:
-                    for _anchor in anchor:
-                        IoU = get_IoU(gt_bbox, _anchor)
-                        if IoU > 0:
-                            print(IoU)
-                            import pdb; pdb.set_trace()
+
+
+            for anchor, scale in zip(self.anchors, [64,32,16,8,4]):
+                # N : gt_bboxes num
+                # M : Current scaled anchor num
+                _anchor = (anchor * scale)
+                _anchor = _anchor.reshape(-1,4)
+                IoUs = get_IoU_tensor(gt_bboxes_trimmed, _anchor) # N x M
+                positive_anchors = (IoUs > 0.5).nonzero() # positive_anchor_num x 2(x,y)
+                print("bi: ", bi, ", scale: ", scale)
+                print(positive_anchors)            
+
+                vis = True
+                if vis:
+                    cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+                    for (gt_box_num, anchor_num) in positive_anchors:
+                        pa = _anchor[anchor_num].cpu().numpy().astype(int)
+                        cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 1)
+                    for gti, gt_bbox in enumerate(gt_bboxes_trimmed):
+                        gt_bbox = gt_bbox.cpu().numpy().astype(int)
+                        cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,0,255), 3)
+                        cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
+                                            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,255), 3)
+
+                    cv2.imwrite(f"test.png", cvimg)
+                    import pdb; pdb.set_trace()
+
+            # for gt_bbox in gt_bboxes_trimmed:
+            #     #area(gt_bbox)
+            #     for anchor, scale in zip(self.anchors, [64,32,16,8,4]):
+            #         _anchor = (anchor * scale)
+            #         _anchor = _anchor.reshape(-1,4)
+            #         for __anchor in _anchor:
+            #             IoU = get_IoU(gt_bbox, __anchor)
+            #             if IoU > 0.7:
+            #                 positive_anchors.append(__anchor)
+
+            # vis0 = False
+            # if vis0:
+            #     cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+            #     #cmap = plt.get_cmap('hsv')
+            #     #colors = [cmap(i) for i in np.linspace(0,1, len(positive_anchors))]
+            #     #colors = [(c[2] * 255, c[1] * 255, c[0] * 255) for c in colors]
+
+            #     for gt_bbox in gt_bboxes_trimmed:
+            #         gt_bbox = gt_bbox.cpu().numpy().astype(int)
+            #         cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,0,255), 3)
+
+            #     for pa in positive_anchors:
+            #         pa = pa.cpu().numpy().astype(int)    
+            #         cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 1)
+                
+            #     cv2.imwrite(f"test.png", cvimg)
+
+            #import pdb; pdb.set_trace()
+
+
+
 
 
         out = self.backbone(inputs['img'])
+        import pdb; pdb.set_trace()
 
         # anchor visualize
-        vis = True
+        vis = False
         if vis:
             cvimg = (inputs['img'][0].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
             for anchor, scale in zip(self.anchors, (64,32,16,8,4)):
@@ -89,7 +144,7 @@ def init_weights(m):
 
 def get_model(mode):
     backbone = FPN()
-    rpn = None
+    rpn = RPN()
     head = None
 
     # Todo : init net weights
