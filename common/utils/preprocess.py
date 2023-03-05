@@ -15,8 +15,6 @@ def gen_trans(orig_img_width, orig_img_height):
         pad_x_left = 0
         pad_y_top = (cfg.input_img_shape[0] - orig_img_height*scale) // 2
 
-
-
     else:
         scale = cfg.input_img_shape[0]  / orig_img_height
         pad_x_left = (cfg.input_img_shape[1] - orig_img_width*scale) // 2

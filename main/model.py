@@ -76,6 +76,7 @@ class Model(nn.Module):
                                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,0,255), 3)
 
                     cv2.imwrite(f"test.png", cvimg)
+                    import pdb; pdb.set_trace()
 
         out = self.backbone(inputs['img'])
         import pdb; pdb.set_trace()

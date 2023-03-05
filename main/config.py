@@ -13,11 +13,14 @@ class Config:
     resnet_type = 50 # 50, 101, 152
     
     ## input, output
-    input_img_shape = (1024, 1024) 
+    #input_img_shape = (1333, 1333) 
+    input_img_shape = (1024,1024)
     output_hm_shape = (64, 64, 64)
     num_max_bbox = 20
     anchor_sizes =(32,64,128,256,512)
     anchor_aspect_ratios =(0.5,1.,2.)
+    IoU_pos_thresh = 0.7
+    IoU_neg_thresh = 0.3
     
     sigma = 2.5
 
@@ -30,11 +33,11 @@ class Config:
     normal_loss_weight = 0.1
 
     ## testing config
-    test_batch_size = 16
+    test_batch_size = 2
     use_gt_info = False
 
     ## others
-    num_thread = 0
+    num_thread = 8
     gpu_ids = '0'
     num_gpus = 1
     stage = 'lixel' # lixel, param

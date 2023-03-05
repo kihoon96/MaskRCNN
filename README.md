@@ -49,6 +49,9 @@ TODO:
 
 # Week3
 
+TODO:
+- RPN bbox_reg, objectiveness head implementation
+
 03.02 Implemented and Visualized Pos&Neg anchor(IoU > 0.5)
 03.03 Implemented IoU tensor broadcasting instead of for loops
 
@@ -56,7 +59,3 @@ TODO:
 ![Screenshot](/assets/pos64.png)
 ![Screenshot](/assets/pos16.png)
 ![Screenshot](/assets/pos8.png)
-
-
-TODO
-- RPN bbox_reg, objectiveness head implementation
