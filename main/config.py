@@ -15,12 +15,17 @@ class Config:
     ## input, output
     #input_img_shape = (1333, 1333) 
     input_img_shape = (1024,1024)
-    output_hm_shape = (64, 64, 64)
+    #output_hm_shape = (64, 64, 64)
     num_max_bbox = 20
-    anchor_sizes =(32,64,128,256,512)
-    anchor_aspect_ratios =(0.5,1.,2.)
+    feature_map_resolutions = (16,32,64,128,256)
+    anchor_strides = (64,32,16,8,4)
+    anchor_aspect_ratios = (0.5,1.,2.)
+    anchor_fm_scale = 8
+
     IoU_pos_thresh = 0.7
     IoU_neg_thresh = 0.3
+    sampling_anchor_num = 64
+    positive_fraction = 0.5
     
     sigma = 2.5
 
@@ -38,7 +43,7 @@ class Config:
 
     ## others
     num_thread = 8
-    gpu_ids = '0'
+    gpu_ids = '1'
     num_gpus = 1
     stage = 'lixel' # lixel, param
     continue_train = False
