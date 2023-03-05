@@ -59,3 +59,9 @@ TODO:
 ![Screenshot](/assets/pos64.png)
 ![Screenshot](/assets/pos16.png)
 ![Screenshot](/assets/pos8.png)
+
+03.05 implemented anchor_labeling, subsampling codes / visualized pos/neg windows
+
+![Screenshot](/assets/pos_neg_1.png)
+![Screenshot](/assets/pos_neg_2.png)
+![Screenshot](/assets/pos_neg_3.png)

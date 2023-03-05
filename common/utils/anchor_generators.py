@@ -73,7 +73,7 @@ def label_anchors(anchors, gt_bboxes):
     # negative anchors for iou <= 0.3
     neg_indices = (max_ious <= IoU_neg_thresh).nonzero()
     labels[neg_indices] = 0
-
+    
     return labels
 
 def subsample_labels(labels:torch.Tensor):

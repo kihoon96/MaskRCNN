@@ -42,17 +42,18 @@ class Model(nn.Module):
             vis = True
             if vis:
                 cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+                for gti, gt_bbox in enumerate(gt_bboxes):
+                    gt_bbox = gt_bbox.cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
+                    cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
+                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)        
                 for pos_i in pos_idx:
                     pa = self.anchors[pos_i].cpu().numpy().astype(int)
                     cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
                 for neg_i in neg_idx:
                     na = self.anchors[neg_i].cpu().numpy().astype(int)
                     cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
-                for gti, gt_bbox in enumerate(gt_bboxes):
-                    gt_bbox = gt_bbox.cpu().numpy().astype(int)
-                    cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
-                    cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
-                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)
+            
 
                 cv2.imwrite(f"test.png", cvimg)
             import pdb; pdb.set_trace()
