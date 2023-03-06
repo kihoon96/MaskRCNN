@@ -19,14 +19,22 @@ class RPN(nn.Module):
     def forward(self, features):
         pred_objectness_logits = []
         pred_anchor_deltas = []
-        for f in featrues:
+        for f in features:
             x = self.inconv(f)
             x = self.relu(x)
-            pred_objectness_logits.append(self.objetness_logits(x))
+            pred_objectness_logits.append(self.objectness_logits(x))
             pred_anchor_deltas.append(self.anchor_deltas(x))
 
         return pred_objectness_logits, pred_anchor_deltas
+
+    def losses(self, anchors, pred_objectness_logits, gt_labels, pred_anchor_deltas, gt_bboxes):
         
+        return
+        
+    def predict_proposals():
+        return
+    
+
 
     def init_weights():
         return

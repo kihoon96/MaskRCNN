@@ -36,10 +36,10 @@ class Model(nn.Module):
             num_valid_bbox = meta_info['num_valid_bbox'][bi]
             gt_bboxes = padded_gt_bboxes[:num_valid_bbox]
 
-            labels = label_anchors(self.anchors, gt_bboxes)
+            labels, gt_idx = label_anchors(self.anchors, gt_bboxes)
             pos_idx, neg_idx = subsample_labels(labels)
 
-            vis = True
+            vis = False
             if vis:
                 cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
                 for gti, gt_bbox in enumerate(gt_bboxes):
@@ -56,7 +56,7 @@ class Model(nn.Module):
             
 
                 cv2.imwrite(f"test.png", cvimg)
-            import pdb; pdb.set_trace()
+                import pdb; pdb.set_trace()
 
         out = self.backbone(inputs['img'])
 

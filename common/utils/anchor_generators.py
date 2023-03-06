@@ -59,7 +59,6 @@ def label_anchors(anchors, gt_bboxes):
     ious = get_IoU_tensor(anchors, gt_bboxes) #NxM
 
     # for each anchor, select gt_bbox with highest iou
-    #gt_idx = ious.argmax(dim=1)
     max_ious, gt_idx = ious.max(dim=1)
 
     # for each gt_bbox, select anchor with highest iou
@@ -73,8 +72,8 @@ def label_anchors(anchors, gt_bboxes):
     # negative anchors for iou <= 0.3
     neg_indices = (max_ious <= IoU_neg_thresh).nonzero()
     labels[neg_indices] = 0
-    
-    return labels
+
+    return labels, gt_idx
 
 def subsample_labels(labels:torch.Tensor):
     num_samples = cfg.sampling_anchor_num

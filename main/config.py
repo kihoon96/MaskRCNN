@@ -34,7 +34,7 @@ class Config:
     end_epoch = 13
     lr = 1e-4
     lr_dec_factor = 10
-    train_batch_size = 5
+    train_batch_size = 2
     normal_loss_weight = 0.1
 
     ## testing config

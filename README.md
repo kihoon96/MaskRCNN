@@ -65,3 +65,10 @@ TODO:
 ![Screenshot](/assets/pos_neg_1.png)
 ![Screenshot](/assets/pos_neg_2.png)
 ![Screenshot](/assets/pos_neg_3.png)
+
+# Week4
+
+TODO: RPN training for region proposals
+- implement trasnform bbox delta function
+- define rpn losses for each header
+- init weights and train rpn for one image as test
