@@ -31,7 +31,7 @@ class Config:
 
     ## training config
     lr_dec_epoch = [10,12]
-    end_epoch = 13
+    end_epoch = 10
     lr = 1e-4
     lr_dec_factor = 10
     train_batch_size = 2

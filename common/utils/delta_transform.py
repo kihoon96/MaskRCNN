@@ -4,10 +4,10 @@ import math
 
 
 _DEFAULT_SCALE_CLAMP = math.log(1000.0 / 16)
-
+weights = [1.0, 1.0, 1.0, 1.0]
 
 #xyxy
-def get_deltas(src_boxes, tar_boxes):
+def get_deltas(src_boxes, target_boxes):
         src_widths = src_boxes[:, 2] - src_boxes[:, 0]
         src_heights = src_boxes[:, 3] - src_boxes[:, 1]
         src_ctr_x = src_boxes[:, 0] + 0.5 * src_widths
@@ -18,7 +18,7 @@ def get_deltas(src_boxes, tar_boxes):
         target_ctr_x = target_boxes[:, 0] + 0.5 * target_widths
         target_ctr_y = target_boxes[:, 1] + 0.5 * target_heights
 
-        wx, wy, ww, wh = self.weights
+        wx, wy, ww, wh = weights
         dx = wx * (target_ctr_x - src_ctr_x) / src_widths
         dy = wy * (target_ctr_y - src_ctr_y) / src_heights
         dw = ww * torch.log(target_widths / src_widths)
@@ -36,7 +36,7 @@ def apply_deltas(deltas, boxes):
         ctr_x = boxes[:, 0] + 0.5 * widths
         ctr_y = boxes[:, 1] + 0.5 * heights
 
-        wx, wy, ww, wh = self.weights
+        wx, wy, ww, wh = weights
         dx = deltas[:, 0::4] / wx
         dy = deltas[:, 1::4] / wy
         dw = deltas[:, 2::4] / ww
@@ -58,6 +58,7 @@ def apply_deltas(deltas, boxes):
         pred_boxes = torch.stack((x1, y1, x2, y2), dim=-1)
         return pred_boxes.reshape(deltas.shape)
 
+'''
 
 def _dense_box_regression_loss(
     anchors: List[Union[Boxes, torch.Tensor]],
@@ -118,3 +119,5 @@ def _dense_box_regression_loss(
     else:
         raise ValueError(f"Invalid dense box regression loss type '{box_reg_loss_type}'")
     return loss_box_reg
+
+'''

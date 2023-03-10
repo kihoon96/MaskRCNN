@@ -31,35 +31,14 @@ class Model(nn.Module):
         self.trainable_modules = [self.backbone, self.rpn, self.head]
     
     def forward(self, inputs, targets, meta_info, mode):
+        gt_bboxes = []
         for bi in range(cfg.train_batch_size):
             padded_gt_bboxes = targets['bboxes'][bi]
             num_valid_bbox = meta_info['num_valid_bbox'][bi]
-            gt_bboxes = padded_gt_bboxes[:num_valid_bbox]
+            gt_bboxes.append(padded_gt_bboxes[:num_valid_bbox])
 
-            labels, gt_idx = label_anchors(self.anchors, gt_bboxes)
-            pos_idx, neg_idx = subsample_labels(labels)
-
-            vis = False
-            if vis:
-                cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
-                for gti, gt_bbox in enumerate(gt_bboxes):
-                    gt_bbox = gt_bbox.cpu().numpy().astype(int)
-                    cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
-                    cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
-                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)        
-                for pos_i in pos_idx:
-                    pa = self.anchors[pos_i].cpu().numpy().astype(int)
-                    cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
-                for neg_i in neg_idx:
-                    na = self.anchors[neg_i].cpu().numpy().astype(int)
-                    cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
-            
-
-                cv2.imwrite(f"test.png", cvimg)
-                import pdb; pdb.set_trace()
-
-        out = self.backbone(inputs['img'])
-
+        fpn_fms = self.backbone(inputs['img'])
+        rpn_losses = self.rpn(fpn_fms ,self.anchors, gt_bboxes)
 
         # anchor visualize
         vis = False
@@ -74,7 +53,14 @@ class Model(nn.Module):
                     cvimg = cv2.rectangle(cvimg.copy(), ___anchor[:2], ___anchor[2:], (255,0,0), 3)                
             cv2.imwrite("whole_anchors.png", cvimg)
 
-        return
+        losses = {}
+
+        losses['objectiveness_loss'] = rpn_losses[0]
+        losses['localization_loss'] = rpn_losses[1]
+        losses['total_loss'] = rpn_losses[0] + rpn_losses[1]
+
+
+        return losses
 
 def init_weights(m):
     if type(m) == nn.ConvTranspose2d:

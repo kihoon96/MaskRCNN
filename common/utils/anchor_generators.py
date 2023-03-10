@@ -54,7 +54,7 @@ def label_anchors(anchors, gt_bboxes):
     IoU_pos_thresh = cfg.IoU_pos_thresh
     num_anchors = anchors.shape[0] #N
     num_gt_bboxes = gt_bboxes.shape[0] #M
-    labels = torch.full((num_anchors,), -1, dtype=torch.int8)
+    labels = torch.full((num_anchors,), -1, dtype=torch.float32, device=torch.cuda.current_device())
 
     ious = get_IoU_tensor(anchors, gt_bboxes) #NxM
 

@@ -643,3 +643,579 @@
 [92m03-06 04:31:29[0m Creating graph and optimizer...
 [92m03-06 04:31:51[0m Creating dataset...
 [92m03-06 04:31:56[0m Creating graph and optimizer...
+[92m03-10 10:04:44[0m Creating dataset...
+[92m03-10 10:04:49[0m Creating graph and optimizer...
+[92m03-10 10:07:52[0m Creating dataset...
+[92m03-10 10:07:57[0m Creating graph and optimizer...
+[92m03-10 10:08:23[0m Creating dataset...
+[92m03-10 10:08:28[0m Creating graph and optimizer...
+[92m03-10 10:08:44[0m Creating dataset...
+[92m03-10 10:08:49[0m Creating graph and optimizer...
+[92m03-10 10:09:26[0m Creating dataset...
+[92m03-10 10:09:31[0m Creating graph and optimizer...
+[92m03-10 10:10:37[0m Creating dataset...
+[92m03-10 10:10:42[0m Creating graph and optimizer...
+[92m03-10 10:11:06[0m Creating dataset...
+[92m03-10 10:11:11[0m Creating graph and optimizer...
+[92m03-10 10:12:23[0m Creating dataset...
+[92m03-10 10:12:28[0m Creating graph and optimizer...
+[92m03-10 10:13:41[0m Creating dataset...
+[92m03-10 10:13:46[0m Creating graph and optimizer...
+[92m03-10 10:20:05[0m Creating dataset...
+[92m03-10 10:20:10[0m Creating graph and optimizer...
+[92m03-10 10:20:23[0m Creating dataset...
+[92m03-10 10:20:28[0m Creating graph and optimizer...
+[92m03-10 10:20:54[0m Creating dataset...
+[92m03-10 10:20:59[0m Creating graph and optimizer...
+[92m03-10 10:22:29[0m Creating dataset...
+[92m03-10 10:22:33[0m Creating graph and optimizer...
+[92m03-10 10:22:50[0m Creating dataset...
+[92m03-10 10:22:55[0m Creating graph and optimizer...
+[92m03-10 10:24:28[0m Creating dataset...
+[92m03-10 10:24:33[0m Creating graph and optimizer...
+[92m03-10 12:27:50[0m Creating dataset...
+[92m03-10 12:27:55[0m Creating graph and optimizer...
+[92m03-10 12:31:01[0m Creating dataset...
+[92m03-10 12:31:06[0m Creating graph and optimizer...
+[92m03-10 12:32:23[0m Creating dataset...
+[92m03-10 12:32:28[0m Creating graph and optimizer...
+[92m03-10 12:35:31[0m Creating dataset...
+[92m03-10 12:35:36[0m Creating graph and optimizer...
+[92m03-10 12:42:08[0m Creating dataset...
+[92m03-10 12:42:13[0m Creating graph and optimizer...
+[92m03-10 12:42:42[0m Creating dataset...
+[92m03-10 12:42:47[0m Creating graph and optimizer...
+[92m03-10 12:55:59[0m Creating dataset...
+[92m03-10 12:56:04[0m Creating graph and optimizer...
+[92m03-10 13:10:01[0m Creating dataset...
+[92m03-10 13:10:06[0m Creating graph and optimizer...
+[92m03-10 13:10:32[0m Creating dataset...
+[92m03-10 13:10:37[0m Creating graph and optimizer...
+[92m03-10 13:11:17[0m Creating dataset...
+[92m03-10 13:11:22[0m Creating graph and optimizer...
+[92m03-10 13:12:18[0m Creating dataset...
+[92m03-10 13:12:23[0m Creating graph and optimizer...
+[92m03-10 13:43:23[0m Creating dataset...
+[92m03-10 13:43:28[0m Creating graph and optimizer...
+[92m03-10 13:44:37[0m Creating dataset...
+[92m03-10 13:44:42[0m Creating graph and optimizer...
+[92m03-10 13:45:15[0m Creating dataset...
+[92m03-10 13:45:20[0m Creating graph and optimizer...
+[92m03-10 13:46:10[0m Creating dataset...
+[92m03-10 13:46:15[0m Creating graph and optimizer...
+[92m03-10 13:46:56[0m Creating dataset...
+[92m03-10 13:47:01[0m Creating graph and optimizer...
+[92m03-10 13:49:35[0m Creating dataset...
+[92m03-10 13:49:40[0m Creating graph and optimizer...
+[92m03-10 13:50:07[0m Creating dataset...
+[92m03-10 13:50:12[0m Creating graph and optimizer...
+[92m03-10 13:50:29[0m Creating dataset...
+[92m03-10 13:50:34[0m Creating graph and optimizer...
+[92m03-10 13:53:37[0m Creating dataset...
+[92m03-10 13:53:42[0m Creating graph and optimizer...
+[92m03-10 13:54:12[0m Creating dataset...
+[92m03-10 13:54:17[0m Creating graph and optimizer...
+[92m03-10 13:54:55[0m Creating dataset...
+[92m03-10 13:55:00[0m Creating graph and optimizer...
+[92m03-10 13:56:15[0m Creating dataset...
+[92m03-10 13:56:20[0m Creating graph and optimizer...
+[92m03-10 13:58:58[0m Creating dataset...
+[92m03-10 13:59:03[0m Creating graph and optimizer...
+[92m03-10 13:59:37[0m Creating dataset...
+[92m03-10 13:59:42[0m Creating graph and optimizer...
+[92m03-10 14:02:29[0m Creating dataset...
+[92m03-10 14:02:34[0m Creating graph and optimizer...
+[92m03-10 14:02:47[0m Creating dataset...
+[92m03-10 14:02:52[0m Creating graph and optimizer...
+[92m03-10 14:03:43[0m Creating dataset...
+[92m03-10 14:03:48[0m Creating graph and optimizer...
+[92m03-10 14:04:56[0m Creating dataset...
+[92m03-10 14:05:01[0m Creating graph and optimizer...
+[92m03-10 14:07:18[0m Creating dataset...
+[92m03-10 14:07:23[0m Creating graph and optimizer...
+[92m03-10 14:29:28[0m Creating dataset...
+[92m03-10 14:29:33[0m Creating graph and optimizer...
+[92m03-10 14:33:05[0m Creating dataset...
+[92m03-10 14:33:09[0m Creating graph and optimizer...
+[92m03-10 14:33:45[0m Creating dataset...
+[92m03-10 14:33:49[0m Creating graph and optimizer...
+[92m03-10 14:34:34[0m Creating dataset...
+[92m03-10 14:34:39[0m Creating graph and optimizer...
+[92m03-10 14:35:18[0m Creating dataset...
+[92m03-10 14:35:23[0m Creating graph and optimizer...
+[92m03-10 14:37:01[0m Creating dataset...
+[92m03-10 14:37:06[0m Creating graph and optimizer...
+[92m03-10 14:37:11[0m Epoch 0/100 itr 0/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 43.3651 loss_localization_loss: 8.1872
+[92m03-10 14:37:11[0m Epoch 0/100 itr 1/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 40.3337 loss_localization_loss: 1.7357
+[92m03-10 14:37:11[0m Epoch 0/100 itr 2/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 36.5793 loss_localization_loss: 1.7673
+[92m03-10 14:37:11[0m Epoch 0/100 itr 3/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 33.0901 loss_localization_loss: 9.4606
+[92m03-10 14:37:12[0m Epoch 0/100 itr 4/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 26.5277 loss_localization_loss: 1.1442
+[92m03-10 14:37:12[0m Epoch 0/100 itr 5/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 25.9194 loss_localization_loss: 5.2609
+[92m03-10 14:37:12[0m Epoch 0/100 itr 6/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 15.4462 loss_localization_loss: 0.6891
+[92m03-10 14:37:12[0m Epoch 0/100 itr 7/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 14.8498 loss_localization_loss: 3.1751
+[92m03-10 14:37:13[0m Epoch 0/100 itr 8/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 10.5250 loss_localization_loss: 3.5487
+[92m03-10 14:37:13[0m Epoch 0/100 itr 9/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 7.6470 loss_localization_loss: 2.6683
+[92m03-10 14:37:13[0m Epoch 0/100 itr 10/32058: lr: 0.0001 speed: 0.00(0.26s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 32.9426 loss_localization_loss: 10.5909
+[92m03-10 14:37:13[0m Epoch 0/100 itr 11/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 23.9183 loss_localization_loss: 10.9851
+[92m03-10 14:37:14[0m Epoch 0/100 itr 12/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 29.1706 loss_localization_loss: 21.8294
+[92m03-10 14:37:14[0m Epoch 0/100 itr 13/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 8.9572 loss_localization_loss: 4.9441
+[92m03-10 14:37:14[0m Epoch 0/100 itr 14/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 24.8333 loss_localization_loss: 7.0419
+[92m03-10 14:37:15[0m Epoch 0/100 itr 15/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.8992 loss_localization_loss: 1.1366
+[92m03-10 14:37:15[0m Epoch 0/100 itr 16/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.9990 loss_localization_loss: 3.4355
+[92m03-10 14:37:15[0m Epoch 0/100 itr 17/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 9.5764 loss_localization_loss: 4.2230
+[92m03-10 14:37:15[0m Epoch 0/100 itr 18/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 5.3535 loss_localization_loss: 1.6637
+[92m03-10 14:37:16[0m Epoch 0/100 itr 19/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 9.5088 loss_localization_loss: 4.7978
+[92m03-10 14:37:16[0m Epoch 0/100 itr 20/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 6.1913 loss_localization_loss: 4.8194
+[92m03-10 14:37:16[0m Epoch 0/100 itr 21/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 7.9200 loss_localization_loss: 2.4288
+[92m03-10 14:37:16[0m Epoch 0/100 itr 22/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 5.3912 loss_localization_loss: 1.6805
+[92m03-10 14:37:17[0m Epoch 0/100 itr 23/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 5.1139 loss_localization_loss: 1.1514
+[92m03-10 14:37:17[0m Epoch 0/100 itr 24/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 14.6398 loss_localization_loss: 6.9798
+[92m03-10 14:37:17[0m Epoch 0/100 itr 25/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 29.2429 loss_localization_loss: 13.5419
+[92m03-10 14:37:17[0m Epoch 0/100 itr 26/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 8.5976 loss_localization_loss: 4.0615
+[92m03-10 14:37:18[0m Epoch 0/100 itr 27/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 6.9776 loss_localization_loss: 2.2802
+[92m03-10 14:37:18[0m Epoch 0/100 itr 28/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 8.4821 loss_localization_loss: 2.4653
+[92m03-10 14:37:18[0m Epoch 0/100 itr 29/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 7.8848 loss_localization_loss: 1.3004
+[92m03-10 14:37:18[0m Epoch 0/100 itr 30/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 13.3780 loss_localization_loss: 6.2752
+[92m03-10 14:37:19[0m Epoch 0/100 itr 31/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 12.6294 loss_localization_loss: 7.2656
+[92m03-10 14:37:19[0m Epoch 0/100 itr 32/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 9.9404 loss_localization_loss: 2.0715
+[92m03-10 14:37:19[0m Epoch 0/100 itr 33/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 9.5848 loss_localization_loss: 4.6549
+[92m03-10 14:37:20[0m Epoch 0/100 itr 34/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 9.4176 loss_localization_loss: 3.7105
+[92m03-10 14:37:20[0m Epoch 0/100 itr 35/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 12.6505 loss_localization_loss: 5.4227
+[92m03-10 14:37:20[0m Epoch 0/100 itr 36/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 5.3968 loss_localization_loss: 0.9359
+[92m03-10 14:37:20[0m Epoch 0/100 itr 37/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 6.1104 loss_localization_loss: 1.4663
+[92m03-10 14:37:21[0m Epoch 0/100 itr 38/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 9.2144 loss_localization_loss: 3.8740
+[92m03-10 14:37:21[0m Epoch 0/100 itr 39/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 6.4694 loss_localization_loss: 4.2297
+[92m03-10 14:37:21[0m Epoch 0/100 itr 40/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 4.4576 loss_localization_loss: 1.4953
+[92m03-10 14:37:21[0m Epoch 0/100 itr 41/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 6.4326 loss_localization_loss: 2.9971
+[92m03-10 14:37:22[0m Epoch 0/100 itr 42/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 2.9938 loss_localization_loss: 2.0589
+[92m03-10 14:37:22[0m Epoch 0/100 itr 43/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 6.6261 loss_localization_loss: 4.2733
+[92m03-10 14:37:22[0m Epoch 0/100 itr 44/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.34h/epoch loss_objectiveness_loss: 8.9339 loss_localization_loss: 8.4439
+[92m03-10 14:37:22[0m Epoch 0/100 itr 45/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 2.1910 loss_localization_loss: 0.8985
+[92m03-10 14:37:23[0m Epoch 0/100 itr 46/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 12.1310 loss_localization_loss: 4.5784
+[92m03-10 14:37:23[0m Epoch 0/100 itr 47/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.6960 loss_localization_loss: 0.9816
+[92m03-10 14:37:23[0m Epoch 0/100 itr 48/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 0.7979 loss_localization_loss: 0.6428
+[92m03-10 14:37:23[0m Epoch 0/100 itr 49/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 1.3634 loss_localization_loss: 0.2783
+[92m03-10 14:37:24[0m Epoch 0/100 itr 50/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 1.9093 loss_localization_loss: 2.5629
+[92m03-10 14:37:24[0m Epoch 0/100 itr 51/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 42.3541 loss_localization_loss: 22.7326
+[92m03-10 14:37:24[0m Epoch 0/100 itr 52/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 6.5495 loss_localization_loss: 5.5792
+[92m03-10 14:37:25[0m Epoch 0/100 itr 53/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 29.9843 loss_localization_loss: 19.4173
+[92m03-10 14:37:25[0m Epoch 0/100 itr 54/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 12.7499 loss_localization_loss: 7.0155
+[92m03-10 14:37:25[0m Epoch 0/100 itr 55/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 29.2063 loss_localization_loss: 14.6557
+[92m03-10 14:37:25[0m Epoch 0/100 itr 56/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.6879 loss_localization_loss: 1.4309
+[92m03-10 14:37:26[0m Epoch 0/100 itr 57/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 14.3387 loss_localization_loss: 7.6309
+[92m03-10 14:37:26[0m Epoch 0/100 itr 58/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.0141 loss_localization_loss: 4.3334
+[92m03-10 14:37:26[0m Epoch 0/100 itr 59/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.0904 loss_localization_loss: 2.4955
+[92m03-10 14:37:26[0m Epoch 0/100 itr 60/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 11.9932 loss_localization_loss: 1.1483
+[92m03-10 14:37:27[0m Epoch 0/100 itr 61/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 8.7337 loss_localization_loss: 6.2416
+[92m03-10 14:37:27[0m Epoch 0/100 itr 62/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 11.2320 loss_localization_loss: 1.4689
+[92m03-10 14:37:27[0m Epoch 0/100 itr 63/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 16.4770 loss_localization_loss: 6.7037
+[92m03-10 14:37:27[0m Epoch 0/100 itr 64/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 12.8108 loss_localization_loss: 3.5883
+[92m03-10 14:37:28[0m Epoch 0/100 itr 65/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 8.4966 loss_localization_loss: 1.4564
+[92m03-10 14:37:28[0m Epoch 0/100 itr 66/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 8.9257 loss_localization_loss: 3.2125
+[92m03-10 14:37:28[0m Epoch 0/100 itr 67/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 9.8707 loss_localization_loss: 6.3684
+[92m03-10 14:37:29[0m Epoch 0/100 itr 68/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 17.4960 loss_localization_loss: 4.6533
+[92m03-10 14:37:29[0m Epoch 0/100 itr 69/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 10.2605 loss_localization_loss: 5.8009
+[92m03-10 14:37:29[0m Epoch 0/100 itr 70/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 8.1437 loss_localization_loss: 5.7330
+[92m03-10 14:37:29[0m Epoch 0/100 itr 71/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 9.0650 loss_localization_loss: 3.9780
+[92m03-10 14:37:30[0m Epoch 0/100 itr 72/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.7468 loss_localization_loss: 0.9173
+[92m03-10 14:37:30[0m Epoch 0/100 itr 73/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 10.3486 loss_localization_loss: 6.9605
+[92m03-10 14:37:30[0m Epoch 0/100 itr 74/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.0023 loss_localization_loss: 1.1583
+[92m03-10 14:37:30[0m Epoch 0/100 itr 75/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.2954 loss_localization_loss: 2.8343
+[92m03-10 14:37:31[0m Epoch 0/100 itr 76/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.7741 loss_localization_loss: 0.5253
+[92m03-10 14:37:31[0m Epoch 0/100 itr 77/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.4476 loss_localization_loss: 7.6268
+[92m03-10 14:37:31[0m Epoch 0/100 itr 78/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 13.0625 loss_localization_loss: 13.4236
+[92m03-10 14:37:31[0m Epoch 0/100 itr 79/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.5143 loss_localization_loss: 2.2870
+[92m03-10 14:37:32[0m Epoch 0/100 itr 80/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.6986 loss_localization_loss: 6.8608
+[92m03-10 14:37:32[0m Epoch 0/100 itr 81/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.1721 loss_localization_loss: 0.6252
+[92m03-10 14:37:32[0m Epoch 0/100 itr 82/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.9544 loss_localization_loss: 4.8644
+[92m03-10 14:37:32[0m Epoch 0/100 itr 83/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 14.5279 loss_localization_loss: 7.7452
+[92m03-10 14:37:33[0m Epoch 0/100 itr 84/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 6.6260 loss_localization_loss: 7.9356
+[92m03-10 14:37:33[0m Epoch 0/100 itr 85/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 2.2818 loss_localization_loss: 2.8252
+[92m03-10 14:37:33[0m Epoch 0/100 itr 86/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.6830 loss_localization_loss: 6.8880
+[92m03-10 14:37:34[0m Epoch 0/100 itr 87/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 19.7918 loss_localization_loss: 16.0715
+[92m03-10 14:37:34[0m Epoch 0/100 itr 88/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.9713 loss_localization_loss: 4.5562
+[92m03-10 14:37:34[0m Epoch 0/100 itr 89/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.6593 loss_localization_loss: 1.1480
+[92m03-10 14:37:34[0m Epoch 0/100 itr 90/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.8906 loss_localization_loss: 1.7480
+[92m03-10 14:37:35[0m Epoch 0/100 itr 91/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 2.8471 loss_localization_loss: 4.3868
+[92m03-10 14:38:35[0m Creating dataset...
+[92m03-10 14:38:40[0m Creating graph and optimizer...
+[92m03-10 14:38:45[0m Epoch 0/10 itr 0/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 44.6091 loss_localization_loss: 1.3056 loss_total_loss: 45.9147
+[92m03-10 14:38:45[0m Epoch 0/10 itr 1/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 38.4023 loss_localization_loss: 1.3454 loss_total_loss: 39.7477
+[92m03-10 14:38:45[0m Epoch 0/10 itr 2/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 36.2949 loss_localization_loss: 6.1747 loss_total_loss: 42.4696
+[92m03-10 14:38:46[0m Epoch 0/10 itr 3/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 27.4094 loss_localization_loss: 0.9476 loss_total_loss: 28.3570
+[92m03-10 14:38:46[0m Epoch 0/10 itr 4/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 30.5409 loss_localization_loss: 8.9649 loss_total_loss: 39.5058
+[92m03-10 14:38:46[0m Epoch 0/10 itr 5/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 24.3468 loss_localization_loss: 3.3621 loss_total_loss: 27.7089
+[92m03-10 14:38:46[0m Epoch 0/10 itr 6/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 16.4940 loss_localization_loss: 1.2855 loss_total_loss: 17.7795
+[92m03-10 14:38:47[0m Epoch 0/10 itr 7/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 13.8335 loss_localization_loss: 2.9096 loss_total_loss: 16.7431
+[92m03-10 14:38:47[0m Epoch 0/10 itr 8/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 14.3249 loss_localization_loss: 3.8512 loss_total_loss: 18.1761
+[92m03-10 14:38:47[0m Epoch 0/10 itr 9/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 20.1549 loss_localization_loss: 10.8917 loss_total_loss: 31.0466
+[92m03-10 14:38:48[0m Epoch 0/10 itr 10/32058: lr: 0.0001 speed: 0.00(0.26s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 15.7301 loss_localization_loss: 4.2559 loss_total_loss: 19.9860
+[92m03-10 14:38:48[0m Epoch 0/10 itr 11/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.6402 loss_localization_loss: 1.5856 loss_total_loss: 6.2258
+[92m03-10 14:38:48[0m Epoch 0/10 itr 12/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.3097 loss_localization_loss: 1.2862 loss_total_loss: 8.5959
+[92m03-10 14:38:48[0m Epoch 0/10 itr 13/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.5099 loss_localization_loss: 0.9153 loss_total_loss: 4.4252
+[92m03-10 14:38:49[0m Epoch 0/10 itr 14/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.3388 loss_localization_loss: 2.2074 loss_total_loss: 7.5462
+[92m03-10 14:38:49[0m Epoch 0/10 itr 15/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.9279 loss_localization_loss: 1.7624 loss_total_loss: 5.6903
+[92m03-10 14:38:49[0m Epoch 0/10 itr 16/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 11.7103 loss_localization_loss: 5.1250 loss_total_loss: 16.8353
+[92m03-10 14:38:49[0m Epoch 0/10 itr 17/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.3497 loss_localization_loss: 2.3783 loss_total_loss: 6.7280
+[92m03-10 14:38:50[0m Epoch 0/10 itr 18/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.2620 loss_localization_loss: 1.6815 loss_total_loss: 5.9435
+[92m03-10 14:38:50[0m Epoch 0/10 itr 19/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.7704 loss_localization_loss: 3.1155 loss_total_loss: 10.8859
+[92m03-10 14:38:50[0m Epoch 0/10 itr 20/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 6.7753 loss_localization_loss: 4.3744 loss_total_loss: 11.1498
+[92m03-10 14:38:50[0m Epoch 0/10 itr 21/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.1795 loss_localization_loss: 2.7540 loss_total_loss: 7.9334
+[92m03-10 14:38:51[0m Epoch 0/10 itr 22/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 17.5488 loss_localization_loss: 8.7078 loss_total_loss: 26.2566
+[92m03-10 14:38:51[0m Epoch 0/10 itr 23/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.4549 loss_localization_loss: 3.4967 loss_total_loss: 8.9516
+[92m03-10 14:38:51[0m Epoch 0/10 itr 24/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.7475 loss_localization_loss: 2.3365 loss_total_loss: 6.0839
+[92m03-10 14:38:51[0m Epoch 0/10 itr 25/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.9550 loss_localization_loss: 0.8321 loss_total_loss: 4.7870
+[92m03-10 14:38:52[0m Epoch 0/10 itr 26/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 6.2432 loss_localization_loss: 3.3662 loss_total_loss: 9.6094
+[92m03-10 14:38:52[0m Epoch 0/10 itr 27/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.3274 loss_localization_loss: 2.8228 loss_total_loss: 6.1501
+[92m03-10 14:38:52[0m Epoch 0/10 itr 28/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.3696 loss_localization_loss: 1.7107 loss_total_loss: 5.0803
+[92m03-10 14:38:53[0m Epoch 0/10 itr 29/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 16.3875 loss_localization_loss: 6.7616 loss_total_loss: 23.1491
+[92m03-10 14:38:53[0m Epoch 0/10 itr 30/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.3280 loss_localization_loss: 2.3537 loss_total_loss: 6.6817
+[92m03-10 14:38:53[0m Epoch 0/10 itr 31/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.8488 loss_localization_loss: 2.1499 loss_total_loss: 5.9988
+[92m03-10 14:38:53[0m Epoch 0/10 itr 32/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 6.2711 loss_localization_loss: 1.7205 loss_total_loss: 7.9916
+[92m03-10 14:38:54[0m Epoch 0/10 itr 33/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 14.3182 loss_localization_loss: 8.5937 loss_total_loss: 22.9119
+[92m03-10 14:38:54[0m Epoch 0/10 itr 34/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 14.5037 loss_localization_loss: 13.5638 loss_total_loss: 28.0675
+[92m03-10 14:38:54[0m Epoch 0/10 itr 35/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.4969 loss_localization_loss: 0.8070 loss_total_loss: 4.3038
+[92m03-10 14:38:54[0m Epoch 0/10 itr 36/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.5917 loss_localization_loss: 3.2642 loss_total_loss: 8.8560
+[92m03-10 14:38:55[0m Epoch 0/10 itr 37/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.7915 loss_localization_loss: 0.8726 loss_total_loss: 4.6641
+[92m03-10 14:38:55[0m Epoch 0/10 itr 38/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 7.5101 loss_localization_loss: 1.0284 loss_total_loss: 8.5385
+[92m03-10 14:38:55[0m Epoch 0/10 itr 39/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.0052 loss_localization_loss: 4.1483 loss_total_loss: 9.1535
+[92m03-10 14:38:55[0m Epoch 0/10 itr 40/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 17.6400 loss_localization_loss: 7.8173 loss_total_loss: 25.4573
+[92m03-10 14:38:56[0m Epoch 0/10 itr 41/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 13.3220 loss_localization_loss: 7.4490 loss_total_loss: 20.7710
+[92m03-10 14:38:56[0m Epoch 0/10 itr 42/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.4892 loss_localization_loss: 3.7194 loss_total_loss: 9.2087
+[92m03-10 14:38:56[0m Epoch 0/10 itr 43/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 4.1893 loss_localization_loss: 1.3855 loss_total_loss: 5.5748
+[92m03-10 14:38:57[0m Epoch 0/10 itr 44/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 5.8607 loss_localization_loss: 0.7711 loss_total_loss: 6.6318
+[92m03-10 14:38:57[0m Epoch 0/10 itr 45/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 9.9378 loss_localization_loss: 6.3932 loss_total_loss: 16.3310
+[92m03-10 14:38:57[0m Epoch 0/10 itr 46/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.0854 loss_localization_loss: 1.2505 loss_total_loss: 5.3359
+[92m03-10 14:38:57[0m Epoch 0/10 itr 47/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.35h/epoch loss_objectiveness_loss: 3.3354 loss_localization_loss: 0.7356 loss_total_loss: 4.0709
+[92m03-10 14:38:58[0m Epoch 0/10 itr 48/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.0332 loss_localization_loss: 4.7308 loss_total_loss: 10.7640
+[92m03-10 14:38:58[0m Epoch 0/10 itr 49/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.0989 loss_localization_loss: 2.9784 loss_total_loss: 8.0773
+[92m03-10 14:38:58[0m Epoch 0/10 itr 50/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.3301 loss_localization_loss: 3.2027 loss_total_loss: 8.5328
+[92m03-10 14:38:58[0m Epoch 0/10 itr 51/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.6456 loss_localization_loss: 1.7578 loss_total_loss: 7.4034
+[92m03-10 14:38:59[0m Epoch 0/10 itr 52/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 12.6355 loss_localization_loss: 8.4478 loss_total_loss: 21.0833
+[92m03-10 14:38:59[0m Epoch 0/10 itr 53/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 15.0186 loss_localization_loss: 8.3398 loss_total_loss: 23.3584
+[92m03-10 14:38:59[0m Epoch 0/10 itr 54/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.4290 loss_localization_loss: 1.8090 loss_total_loss: 7.2380
+[92m03-10 14:38:59[0m Epoch 0/10 itr 55/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.2140 loss_localization_loss: 1.5363 loss_total_loss: 4.7503
+[92m03-10 14:39:00[0m Epoch 0/10 itr 56/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.0731 loss_localization_loss: 1.6451 loss_total_loss: 4.7182
+[92m03-10 14:39:00[0m Epoch 0/10 itr 57/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.6411 loss_localization_loss: 0.8989 loss_total_loss: 2.5400
+[92m03-10 14:39:00[0m Epoch 0/10 itr 58/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 9.1074 loss_localization_loss: 9.6223 loss_total_loss: 18.7297
+[92m03-10 14:39:00[0m Epoch 0/10 itr 59/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 15.2513 loss_localization_loss: 6.9295 loss_total_loss: 22.1809
+[92m03-10 14:39:01[0m Epoch 0/10 itr 60/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 8.4787 loss_localization_loss: 7.2580 loss_total_loss: 15.7367
+[92m03-10 14:39:01[0m Epoch 0/10 itr 61/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 7.8120 loss_localization_loss: 7.5575 loss_total_loss: 15.3695
+[92m03-10 14:39:01[0m Epoch 0/10 itr 62/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.1932 loss_localization_loss: 1.1136 loss_total_loss: 5.3068
+[92m03-10 14:39:02[0m Epoch 0/10 itr 63/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.3654 loss_localization_loss: 8.7135 loss_total_loss: 15.0789
+[92m03-10 14:39:02[0m Epoch 0/10 itr 64/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.1802 loss_localization_loss: 2.8698 loss_total_loss: 7.0500
+[92m03-10 14:39:02[0m Epoch 0/10 itr 65/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.8142 loss_localization_loss: 1.6282 loss_total_loss: 4.4425
+[92m03-10 14:39:02[0m Epoch 0/10 itr 66/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.9990 loss_localization_loss: 0.7791 loss_total_loss: 3.7781
+[92m03-10 14:39:03[0m Epoch 0/10 itr 67/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.5703 loss_localization_loss: 1.3418 loss_total_loss: 3.9121
+[92m03-10 14:39:03[0m Epoch 0/10 itr 68/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 7.4872 loss_localization_loss: 15.2960 loss_total_loss: 22.7832
+[92m03-10 14:39:03[0m Epoch 0/10 itr 69/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.1440 loss_localization_loss: 4.6429 loss_total_loss: 7.7869
+[92m03-10 14:39:03[0m Epoch 0/10 itr 70/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.2322 loss_localization_loss: 9.0563 loss_total_loss: 14.2885
+[92m03-10 14:39:04[0m Epoch 0/10 itr 71/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.6475 loss_localization_loss: 5.1292 loss_total_loss: 8.7767
+[92m03-10 14:39:04[0m Epoch 0/10 itr 72/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 9.1743 loss_localization_loss: 13.6754 loss_total_loss: 22.8497
+[92m03-10 14:39:04[0m Epoch 0/10 itr 73/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 16.0103 loss_localization_loss: 10.6950 loss_total_loss: 26.7053
+[92m03-10 14:39:04[0m Epoch 0/10 itr 74/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 13.2330 loss_localization_loss: 3.2860 loss_total_loss: 16.5190
+[92m03-10 14:39:05[0m Epoch 0/10 itr 75/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.1890 loss_localization_loss: 4.3580 loss_total_loss: 8.5470
+[92m03-10 14:39:05[0m Epoch 0/10 itr 76/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 9.2478 loss_localization_loss: 6.5608 loss_total_loss: 15.8086
+[92m03-10 14:39:05[0m Epoch 0/10 itr 77/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.7917 loss_localization_loss: 2.9848 loss_total_loss: 5.7765
+[92m03-10 14:39:06[0m Epoch 0/10 itr 78/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.5093 loss_localization_loss: 12.6534 loss_total_loss: 18.1627
+[92m03-10 14:39:06[0m Epoch 0/10 itr 79/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 7.2333 loss_localization_loss: 6.7668 loss_total_loss: 14.0000
+[92m03-10 14:39:06[0m Epoch 0/10 itr 80/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.9378 loss_localization_loss: 9.0482 loss_total_loss: 14.9861
+[92m03-10 14:39:06[0m Epoch 0/10 itr 81/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.4813 loss_localization_loss: 0.3612 loss_total_loss: 2.8425
+[92m03-10 14:39:07[0m Epoch 0/10 itr 82/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.4378 loss_localization_loss: 9.4498 loss_total_loss: 14.8876
+[92m03-10 14:39:07[0m Epoch 0/10 itr 83/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.8744 loss_localization_loss: 2.8723 loss_total_loss: 6.7467
+[92m03-10 14:39:07[0m Epoch 0/10 itr 84/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 18.5222 loss_localization_loss: 8.1891 loss_total_loss: 26.7113
+[92m03-10 14:39:07[0m Epoch 0/10 itr 85/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.0945 loss_localization_loss: 3.6275 loss_total_loss: 5.7220
+[92m03-10 14:39:08[0m Epoch 0/10 itr 86/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.1398 loss_localization_loss: 3.3323 loss_total_loss: 4.4720
+[92m03-10 14:39:08[0m Epoch 0/10 itr 87/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.5561 loss_localization_loss: 1.0901 loss_total_loss: 5.6462
+[92m03-10 14:39:08[0m Epoch 0/10 itr 88/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.2600 loss_localization_loss: 2.8814 loss_total_loss: 5.1414
+[92m03-10 14:39:08[0m Epoch 0/10 itr 89/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.6380 loss_localization_loss: 2.3032 loss_total_loss: 7.9412
+[92m03-10 14:39:09[0m Epoch 0/10 itr 90/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.4091 loss_localization_loss: 1.7621 loss_total_loss: 6.1712
+[92m03-10 14:39:09[0m Epoch 0/10 itr 91/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.2259 loss_localization_loss: 2.5909 loss_total_loss: 5.8168
+[92m03-10 14:39:09[0m Epoch 0/10 itr 92/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.3225 loss_localization_loss: 1.2060 loss_total_loss: 2.5285
+[92m03-10 14:39:09[0m Epoch 0/10 itr 93/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.6539 loss_localization_loss: 1.4143 loss_total_loss: 4.0682
+[92m03-10 14:39:10[0m Epoch 0/10 itr 94/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 7.5595 loss_localization_loss: 7.6276 loss_total_loss: 15.1871
+[92m03-10 14:39:10[0m Epoch 0/10 itr 95/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.3990 loss_localization_loss: 1.6079 loss_total_loss: 4.0070
+[92m03-10 14:39:10[0m Epoch 0/10 itr 96/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.0648 loss_localization_loss: 5.9302 loss_total_loss: 8.9950
+[92m03-10 14:39:11[0m Epoch 0/10 itr 97/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 10.1936 loss_localization_loss: 6.9765 loss_total_loss: 17.1701
+[92m03-10 14:39:11[0m Epoch 0/10 itr 98/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.9433 loss_localization_loss: 3.8304 loss_total_loss: 9.7737
+[92m03-10 14:39:11[0m Epoch 0/10 itr 99/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.6192 loss_localization_loss: 1.3707 loss_total_loss: 2.9898
+[92m03-10 14:39:11[0m Epoch 0/10 itr 100/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 8.5926 loss_localization_loss: 8.4770 loss_total_loss: 17.0696
+[92m03-10 14:39:12[0m Epoch 0/10 itr 101/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.8028 loss_localization_loss: 2.4618 loss_total_loss: 4.2646
+[92m03-10 14:39:12[0m Epoch 0/10 itr 102/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.9540 loss_localization_loss: 3.4390 loss_total_loss: 6.3930
+[92m03-10 14:39:12[0m Epoch 0/10 itr 103/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.7608 loss_localization_loss: 0.4296 loss_total_loss: 2.1904
+[92m03-10 14:39:12[0m Epoch 0/10 itr 104/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.1749 loss_localization_loss: 5.7832 loss_total_loss: 8.9581
+[92m03-10 14:39:13[0m Epoch 0/10 itr 105/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.9812 loss_localization_loss: 3.3866 loss_total_loss: 7.3678
+[92m03-10 14:39:13[0m Epoch 0/10 itr 106/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.1358 loss_localization_loss: 2.0360 loss_total_loss: 6.1717
+[92m03-10 14:39:13[0m Epoch 0/10 itr 107/32058: lr: 0.0001 speed: 0.26(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 8.7527 loss_localization_loss: 7.0090 loss_total_loss: 15.7617
+[92m03-10 14:39:13[0m Epoch 0/10 itr 108/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.5712 loss_localization_loss: 1.2256 loss_total_loss: 2.7968
+[92m03-10 14:39:14[0m Epoch 0/10 itr 109/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.1419 loss_localization_loss: 1.0612 loss_total_loss: 3.2032
+[92m03-10 14:39:14[0m Epoch 0/10 itr 110/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 5.3407 loss_localization_loss: 6.9395 loss_total_loss: 12.2802
+[92m03-10 14:39:14[0m Epoch 0/10 itr 111/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.2313 loss_localization_loss: 7.3359 loss_total_loss: 13.5671
+[92m03-10 14:39:15[0m Epoch 0/10 itr 112/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.8883 loss_localization_loss: 1.8682 loss_total_loss: 5.7565
+[92m03-10 14:39:15[0m Epoch 0/10 itr 113/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 11.2301 loss_localization_loss: 1.4236 loss_total_loss: 12.6537
+[92m03-10 14:39:15[0m Epoch 0/10 itr 114/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.0312 loss_localization_loss: 7.0101 loss_total_loss: 13.0413
+[92m03-10 14:39:15[0m Epoch 0/10 itr 115/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.0017 loss_localization_loss: 3.7539 loss_total_loss: 6.7557
+[92m03-10 14:39:16[0m Epoch 0/10 itr 116/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.9533 loss_localization_loss: 2.2932 loss_total_loss: 6.2465
+[92m03-10 14:39:16[0m Epoch 0/10 itr 117/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.8666 loss_localization_loss: 2.8309 loss_total_loss: 4.6975
+[92m03-10 14:39:16[0m Epoch 0/10 itr 118/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.0193 loss_localization_loss: 2.3493 loss_total_loss: 5.3686
+[92m03-10 14:39:16[0m Epoch 0/10 itr 119/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 14.6961 loss_localization_loss: 4.6504 loss_total_loss: 19.3465
+[92m03-10 14:39:17[0m Epoch 0/10 itr 120/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 11.8225 loss_localization_loss: 7.4712 loss_total_loss: 19.2937
+[92m03-10 14:39:17[0m Epoch 0/10 itr 121/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.4379 loss_localization_loss: 3.9438 loss_total_loss: 6.3817
+[92m03-10 14:39:17[0m Epoch 0/10 itr 122/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.1678 loss_localization_loss: 2.3869 loss_total_loss: 6.5547
+[92m03-10 14:39:18[0m Epoch 0/10 itr 123/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.8306 loss_localization_loss: 6.2827 loss_total_loss: 13.1132
+[92m03-10 14:39:18[0m Epoch 0/10 itr 124/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.9778 loss_localization_loss: 8.0204 loss_total_loss: 14.9982
+[92m03-10 14:39:18[0m Epoch 0/10 itr 125/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.2307 loss_localization_loss: 3.5618 loss_total_loss: 7.7925
+[92m03-10 14:39:18[0m Epoch 0/10 itr 126/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 1.1953 loss_localization_loss: 0.9787 loss_total_loss: 2.1740
+[92m03-10 14:39:19[0m Epoch 0/10 itr 127/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 7.9352 loss_localization_loss: 3.8751 loss_total_loss: 11.8103
+[92m03-10 14:39:19[0m Epoch 0/10 itr 128/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.1785 loss_localization_loss: 2.3510 loss_total_loss: 6.5295
+[92m03-10 14:39:19[0m Epoch 0/10 itr 129/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 3.1886 loss_localization_loss: 0.3968 loss_total_loss: 3.5853
+[92m03-10 14:39:19[0m Epoch 0/10 itr 130/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.3713 loss_localization_loss: 1.8408 loss_total_loss: 8.2121
+[92m03-10 14:39:20[0m Epoch 0/10 itr 131/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 4.8647 loss_localization_loss: 3.8914 loss_total_loss: 8.7560
+[92m03-10 14:39:20[0m Epoch 0/10 itr 132/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 7.9041 loss_localization_loss: 5.4362 loss_total_loss: 13.3403
+[92m03-10 14:39:20[0m Epoch 0/10 itr 133/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.3879 loss_localization_loss: 5.5186 loss_total_loss: 7.9065
+[92m03-10 14:39:20[0m Epoch 0/10 itr 134/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 2.1121 loss_localization_loss: 1.6333 loss_total_loss: 3.7454
+[92m03-10 14:39:21[0m Epoch 0/10 itr 135/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.36h/epoch loss_objectiveness_loss: 6.2447 loss_localization_loss: 6.6240 loss_total_loss: 12.8687
+[92m03-10 14:39:21[0m Epoch 0/10 itr 136/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 2.7567 loss_localization_loss: 2.2168 loss_total_loss: 4.9735
+[92m03-10 14:39:21[0m Epoch 0/10 itr 137/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 4.7996 loss_localization_loss: 3.7146 loss_total_loss: 8.5143
+[92m03-10 14:39:22[0m Epoch 0/10 itr 138/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 7.3194 loss_localization_loss: 4.4079 loss_total_loss: 11.7272
+[92m03-10 14:39:22[0m Epoch 0/10 itr 139/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 3.9859 loss_localization_loss: 2.2169 loss_total_loss: 6.2028
+[92m03-10 14:39:22[0m Epoch 0/10 itr 140/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 2.4564 loss_localization_loss: 5.4597 loss_total_loss: 7.9161
+[92m03-10 14:39:22[0m Epoch 0/10 itr 141/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 7.1756 loss_localization_loss: 5.1227 loss_total_loss: 12.2983
+[92m03-10 14:39:23[0m Epoch 0/10 itr 142/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 6.3202 loss_localization_loss: 6.6941 loss_total_loss: 13.0143
+[92m03-10 14:39:23[0m Epoch 0/10 itr 143/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 1.6857 loss_localization_loss: 1.9460 loss_total_loss: 3.6317
+[92m03-10 14:39:23[0m Epoch 0/10 itr 144/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 3.9595 loss_localization_loss: 3.1115 loss_total_loss: 7.0710
+[92m03-10 14:39:23[0m Epoch 0/10 itr 145/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 3.2788 loss_localization_loss: 2.9665 loss_total_loss: 6.2453
+[92m03-10 14:39:24[0m Epoch 0/10 itr 146/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 6.6293 loss_localization_loss: 9.3432 loss_total_loss: 15.9725
+[92m03-10 14:39:24[0m Epoch 0/10 itr 147/32058: lr: 0.0001 speed: 0.27(0.26s r0.00)s/itr 2.37h/epoch loss_objectiveness_loss: 5.9355 loss_localization_loss: 10.1878 loss_total_loss: 16.1232
+[92m03-10 14:39:31[0m Creating dataset...
+[92m03-10 14:39:36[0m Creating graph and optimizer...
+[92m03-10 14:44:18[0m Creating dataset...
+[92m03-10 14:44:23[0m Creating graph and optimizer...
+[92m03-10 14:44:40[0m Creating dataset...
+[92m03-10 14:44:45[0m Creating graph and optimizer...
+[92m03-10 14:45:02[0m Creating dataset...
+[92m03-10 14:45:07[0m Creating graph and optimizer...
+[92m03-10 14:45:56[0m Creating dataset...
+[92m03-10 14:46:01[0m Creating graph and optimizer...
+[92m03-10 14:46:11[0m Creating dataset...
+[92m03-10 14:46:16[0m Creating graph and optimizer...
+[92m03-10 14:46:47[0m Creating dataset...
+[92m03-10 14:46:52[0m Creating graph and optimizer...
+[92m03-10 14:47:09[0m Creating dataset...
+[92m03-10 14:47:14[0m Creating graph and optimizer...
+[92m03-10 14:47:34[0m Epoch 0/10 itr 0/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 43.7676 loss_localization_loss: 1.1264 loss_total_loss: 44.8940
+[92m03-10 14:47:48[0m Creating dataset...
+[92m03-10 14:47:53[0m Creating graph and optimizer...
+[92m03-10 14:47:58[0m Epoch 0/10 itr 0/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 45.0519 loss_localization_loss: 3.2599 loss_total_loss: 48.3118
+[92m03-10 14:47:58[0m Epoch 0/10 itr 1/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 41.2271 loss_localization_loss: 3.6860 loss_total_loss: 44.9131
+[92m03-10 14:47:59[0m Epoch 0/10 itr 2/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 37.9427 loss_localization_loss: 0.8996 loss_total_loss: 38.8423
+[92m03-10 14:47:59[0m Epoch 0/10 itr 3/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 36.7753 loss_localization_loss: 7.8259 loss_total_loss: 44.6012
+[92m03-10 14:47:59[0m Epoch 0/10 itr 4/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 28.5641 loss_localization_loss: 1.9961 loss_total_loss: 30.5602
+[92m03-10 14:47:59[0m Epoch 0/10 itr 5/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 29.0943 loss_localization_loss: 6.9699 loss_total_loss: 36.0642
+[92m03-10 14:48:00[0m Epoch 0/10 itr 6/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 17.4320 loss_localization_loss: 0.9802 loss_total_loss: 18.4122
+[92m03-10 14:48:00[0m Epoch 0/10 itr 7/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 16.4761 loss_localization_loss: 2.7203 loss_total_loss: 19.1964
+[92m03-10 14:48:00[0m Epoch 0/10 itr 8/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 15.2520 loss_localization_loss: 6.4890 loss_total_loss: 21.7410
+[92m03-10 14:48:00[0m Epoch 0/10 itr 9/32058: lr: 0.0001 speed: 0.00(0.00s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 12.6142 loss_localization_loss: 4.4336 loss_total_loss: 17.0477
+[92m03-10 14:48:01[0m Epoch 0/10 itr 10/32058: lr: 0.0001 speed: 0.00(0.27s r0.00)s/itr 0.00h/epoch loss_objectiveness_loss: 18.9000 loss_localization_loss: 12.8479 loss_total_loss: 31.7479
+[92m03-10 14:48:01[0m Epoch 0/10 itr 11/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 9.1172 loss_localization_loss: 2.0779 loss_total_loss: 11.1951
+[92m03-10 14:48:01[0m Epoch 0/10 itr 12/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 45.7183 loss_localization_loss: 22.5408 loss_total_loss: 68.2590
+[92m03-10 14:48:02[0m Epoch 0/10 itr 13/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 6.5135 loss_localization_loss: 2.7654 loss_total_loss: 9.2789
+[92m03-10 14:48:02[0m Epoch 0/10 itr 14/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 16.7882 loss_localization_loss: 5.8986 loss_total_loss: 22.6868
+[92m03-10 14:48:02[0m Epoch 0/10 itr 15/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 31.3981 loss_localization_loss: 11.3146 loss_total_loss: 42.7128
+[92m03-10 14:48:02[0m Epoch 0/10 itr 16/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 7.3797 loss_localization_loss: 3.3571 loss_total_loss: 10.7369
+[92m03-10 14:48:03[0m Epoch 0/10 itr 17/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.1949 loss_localization_loss: 0.9997 loss_total_loss: 5.1946
+[92m03-10 14:48:03[0m Epoch 0/10 itr 18/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.5345 loss_localization_loss: 0.5420 loss_total_loss: 5.0765
+[92m03-10 14:48:03[0m Epoch 0/10 itr 19/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.4505 loss_localization_loss: 1.4695 loss_total_loss: 5.9201
+[92m03-10 14:48:03[0m Epoch 0/10 itr 20/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.0450 loss_localization_loss: 1.2524 loss_total_loss: 6.2974
+[92m03-10 14:48:04[0m Epoch 0/10 itr 21/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 16.6046 loss_localization_loss: 8.6926 loss_total_loss: 25.2973
+[92m03-10 14:48:04[0m Epoch 0/10 itr 22/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 10.8357 loss_localization_loss: 5.2673 loss_total_loss: 16.1030
+[92m03-10 14:48:04[0m Epoch 0/10 itr 23/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 16.7359 loss_localization_loss: 10.5217 loss_total_loss: 27.2577
+[92m03-10 14:48:05[0m Epoch 0/10 itr 24/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.0478 loss_localization_loss: 1.1105 loss_total_loss: 6.1584
+[92m03-10 14:48:05[0m Epoch 0/10 itr 25/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.9149 loss_localization_loss: 1.8069 loss_total_loss: 6.7219
+[92m03-10 14:48:05[0m Epoch 0/10 itr 26/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.1787 loss_localization_loss: 0.9525 loss_total_loss: 4.1312
+[92m03-10 14:48:05[0m Epoch 0/10 itr 27/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.6401 loss_localization_loss: 2.7240 loss_total_loss: 8.3641
+[92m03-10 14:48:06[0m Epoch 0/10 itr 28/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 19.3043 loss_localization_loss: 10.9337 loss_total_loss: 30.2379
+[92m03-10 14:48:06[0m Epoch 0/10 itr 29/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.2651 loss_localization_loss: 0.9951 loss_total_loss: 6.2602
+[92m03-10 14:48:06[0m Epoch 0/10 itr 30/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 8.9180 loss_localization_loss: 5.5834 loss_total_loss: 14.5014
+[92m03-10 14:48:07[0m Epoch 0/10 itr 31/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 3.9018 loss_localization_loss: 2.8935 loss_total_loss: 6.7953
+[92m03-10 14:48:07[0m Epoch 0/10 itr 32/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 10.9359 loss_localization_loss: 7.2226 loss_total_loss: 18.1585
+[92m03-10 14:48:07[0m Epoch 0/10 itr 33/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.9630 loss_localization_loss: 1.6389 loss_total_loss: 6.6019
+[92m03-10 14:48:07[0m Epoch 0/10 itr 34/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 15.2937 loss_localization_loss: 7.8739 loss_total_loss: 23.1676
+[92m03-10 14:48:08[0m Epoch 0/10 itr 35/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 20.5249 loss_localization_loss: 13.0789 loss_total_loss: 33.6038
+[92m03-10 14:48:08[0m Epoch 0/10 itr 36/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.4887 loss_localization_loss: 6.1996 loss_total_loss: 13.6883
+[92m03-10 14:48:08[0m Epoch 0/10 itr 37/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 11.2236 loss_localization_loss: 5.9085 loss_total_loss: 17.1321
+[92m03-10 14:48:08[0m Epoch 0/10 itr 38/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.0758 loss_localization_loss: 5.2321 loss_total_loss: 12.3078
+[92m03-10 14:48:09[0m Epoch 0/10 itr 39/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.1248 loss_localization_loss: 1.3366 loss_total_loss: 6.4614
+[92m03-10 14:48:09[0m Epoch 0/10 itr 40/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.5311 loss_localization_loss: 1.3047 loss_total_loss: 5.8358
+[92m03-10 14:48:09[0m Epoch 0/10 itr 41/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.0362 loss_localization_loss: 0.3967 loss_total_loss: 6.4329
+[92m03-10 14:48:10[0m Epoch 0/10 itr 42/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.9435 loss_localization_loss: 3.4547 loss_total_loss: 9.3982
+[92m03-10 14:48:10[0m Epoch 0/10 itr 43/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 17.1963 loss_localization_loss: 14.6418 loss_total_loss: 31.8380
+[92m03-10 14:48:10[0m Epoch 0/10 itr 44/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 35.3750 loss_localization_loss: 19.9072 loss_total_loss: 55.2822
+[92m03-10 14:48:10[0m Epoch 0/10 itr 45/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.4776 loss_localization_loss: 5.3833 loss_total_loss: 12.8609
+[92m03-10 14:48:11[0m Epoch 0/10 itr 46/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.4727 loss_localization_loss: 3.4785 loss_total_loss: 8.9512
+[92m03-10 14:48:11[0m Epoch 0/10 itr 47/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.4220 loss_localization_loss: 2.1475 loss_total_loss: 7.5696
+[92m03-10 14:48:11[0m Epoch 0/10 itr 48/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 8.1534 loss_localization_loss: 6.5332 loss_total_loss: 14.6866
+[92m03-10 14:48:11[0m Epoch 0/10 itr 49/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.1779 loss_localization_loss: 0.6054 loss_total_loss: 4.7834
+[92m03-10 14:48:12[0m Epoch 0/10 itr 50/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.6004 loss_localization_loss: 7.2348 loss_total_loss: 12.8352
+[92m03-10 14:48:12[0m Epoch 0/10 itr 51/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 9.3343 loss_localization_loss: 6.4342 loss_total_loss: 15.7685
+[92m03-10 14:48:12[0m Epoch 0/10 itr 52/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 8.1676 loss_localization_loss: 6.4323 loss_total_loss: 14.5998
+[92m03-10 14:48:13[0m Epoch 0/10 itr 53/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 12.8906 loss_localization_loss: 6.5335 loss_total_loss: 19.4241
+[92m03-10 14:48:13[0m Epoch 0/10 itr 54/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.4625 loss_localization_loss: 6.6507 loss_total_loss: 11.1132
+[92m03-10 14:48:13[0m Epoch 0/10 itr 55/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.0874 loss_localization_loss: 1.3201 loss_total_loss: 6.4075
+[92m03-10 14:48:13[0m Epoch 0/10 itr 56/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.8272 loss_localization_loss: 11.3603 loss_total_loss: 16.1875
+[92m03-10 14:48:14[0m Epoch 0/10 itr 57/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.6735 loss_localization_loss: 1.7871 loss_total_loss: 7.4606
+[92m03-10 14:48:14[0m Epoch 0/10 itr 58/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.8092 loss_localization_loss: 2.6512 loss_total_loss: 9.4604
+[92m03-10 14:48:14[0m Epoch 0/10 itr 59/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 51.1976 loss_localization_loss: 9.5377 loss_total_loss: 60.7353
+[92m03-10 14:48:14[0m Epoch 0/10 itr 60/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.8069 loss_localization_loss: 4.8453 loss_total_loss: 9.6522
+[92m03-10 14:48:15[0m Epoch 0/10 itr 61/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 8.1604 loss_localization_loss: 6.9507 loss_total_loss: 15.1111
+[92m03-10 14:48:15[0m Epoch 0/10 itr 62/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 2.9971 loss_localization_loss: 0.7505 loss_total_loss: 3.7476
+[92m03-10 14:48:15[0m Epoch 0/10 itr 63/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 11.1909 loss_localization_loss: 8.9229 loss_total_loss: 20.1138
+[92m03-10 14:48:16[0m Epoch 0/10 itr 64/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 3.9292 loss_localization_loss: 2.1480 loss_total_loss: 6.0771
+[92m03-10 14:48:16[0m Epoch 0/10 itr 65/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 1.9154 loss_localization_loss: 0.7174 loss_total_loss: 2.6329
+[92m03-10 14:48:16[0m Epoch 0/10 itr 66/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 5.6342 loss_localization_loss: 5.1798 loss_total_loss: 10.8140
+[92m03-10 14:48:16[0m Epoch 0/10 itr 67/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 2.9808 loss_localization_loss: 1.4095 loss_total_loss: 4.3902
+[92m03-10 14:48:17[0m Epoch 0/10 itr 68/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 9.0033 loss_localization_loss: 7.4860 loss_total_loss: 16.4894
+[92m03-10 14:48:17[0m Epoch 0/10 itr 69/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.6266 loss_localization_loss: 3.8879 loss_total_loss: 10.5144
+[92m03-10 14:48:17[0m Epoch 0/10 itr 70/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.9137 loss_localization_loss: 6.4529 loss_total_loss: 14.3666
+[92m03-10 14:48:17[0m Epoch 0/10 itr 71/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 29.4717 loss_localization_loss: 8.7053 loss_total_loss: 38.1769
+[92m03-10 14:48:18[0m Epoch 0/10 itr 72/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 3.8179 loss_localization_loss: 3.0179 loss_total_loss: 6.8359
+[92m03-10 14:48:18[0m Epoch 0/10 itr 73/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.2270 loss_localization_loss: 5.8397 loss_total_loss: 13.0667
+[92m03-10 14:48:18[0m Epoch 0/10 itr 74/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.8977 loss_localization_loss: 5.6529 loss_total_loss: 10.5507
+[92m03-10 14:48:19[0m Epoch 0/10 itr 75/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.8868 loss_localization_loss: 4.7685 loss_total_loss: 11.6553
+[92m03-10 14:48:19[0m Epoch 0/10 itr 76/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.0246 loss_localization_loss: 1.2019 loss_total_loss: 8.2264
+[92m03-10 14:48:19[0m Epoch 0/10 itr 77/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.2476 loss_localization_loss: 2.6433 loss_total_loss: 8.8909
+[92m03-10 14:48:19[0m Epoch 0/10 itr 78/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 3.8192 loss_localization_loss: 2.6459 loss_total_loss: 6.4651
+[92m03-10 14:48:20[0m Epoch 0/10 itr 79/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.3195 loss_localization_loss: 2.3909 loss_total_loss: 6.7104
+[92m03-10 14:48:20[0m Epoch 0/10 itr 80/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.2749 loss_localization_loss: 2.3595 loss_total_loss: 8.6343
+[92m03-10 14:48:20[0m Epoch 0/10 itr 81/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 2.3807 loss_localization_loss: 0.5090 loss_total_loss: 2.8897
+[92m03-10 14:48:21[0m Epoch 0/10 itr 82/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 2.0767 loss_localization_loss: 1.4405 loss_total_loss: 3.5172
+[92m03-10 14:48:21[0m Epoch 0/10 itr 83/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 7.4774 loss_localization_loss: 4.7199 loss_total_loss: 12.1973
+[92m03-10 14:48:21[0m Epoch 0/10 itr 84/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 4.8889 loss_localization_loss: 6.1383 loss_total_loss: 11.0272
+[92m03-10 14:48:21[0m Epoch 0/10 itr 85/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 1.0417 loss_localization_loss: 1.2135 loss_total_loss: 2.2552
+[92m03-10 14:48:22[0m Epoch 0/10 itr 86/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 2.8277 loss_localization_loss: 2.1087 loss_total_loss: 4.9363
+[92m03-10 14:48:22[0m Epoch 0/10 itr 87/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 12.9512 loss_localization_loss: 8.0115 loss_total_loss: 20.9627
+[92m03-10 14:48:22[0m Epoch 0/10 itr 88/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 9.4751 loss_localization_loss: 10.8489 loss_total_loss: 20.3240
+[92m03-10 14:48:22[0m Epoch 0/10 itr 89/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 3.2629 loss_localization_loss: 5.5182 loss_total_loss: 8.7811
+[92m03-10 14:48:23[0m Epoch 0/10 itr 90/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 1.9080 loss_localization_loss: 0.8769 loss_total_loss: 2.7849
+[92m03-10 14:48:23[0m Epoch 0/10 itr 91/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.44h/epoch loss_objectiveness_loss: 6.7639 loss_localization_loss: 9.5085 loss_total_loss: 16.2724
+[92m03-10 14:48:23[0m Epoch 0/10 itr 92/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.1076 loss_localization_loss: 3.0287 loss_total_loss: 7.1363
+[92m03-10 14:48:24[0m Epoch 0/10 itr 93/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.8137 loss_localization_loss: 1.0116 loss_total_loss: 2.8253
+[92m03-10 14:48:24[0m Epoch 0/10 itr 94/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.5016 loss_localization_loss: 1.6020 loss_total_loss: 6.1036
+[92m03-10 14:48:24[0m Epoch 0/10 itr 95/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.7659 loss_localization_loss: 7.1515 loss_total_loss: 12.9174
+[92m03-10 14:48:24[0m Epoch 0/10 itr 96/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.7965 loss_localization_loss: 2.2000 loss_total_loss: 3.9965
+[92m03-10 14:48:25[0m Epoch 0/10 itr 97/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 8.0018 loss_localization_loss: 2.0308 loss_total_loss: 10.0326
+[92m03-10 14:48:25[0m Epoch 0/10 itr 98/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.0999 loss_localization_loss: 2.8391 loss_total_loss: 7.9390
+[92m03-10 14:48:25[0m Epoch 0/10 itr 99/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 6.4602 loss_localization_loss: 6.3190 loss_total_loss: 12.7792
+[92m03-10 14:48:25[0m Epoch 0/10 itr 100/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.3742 loss_localization_loss: 1.0234 loss_total_loss: 4.3976
+[92m03-10 14:48:26[0m Epoch 0/10 itr 101/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 8.7832 loss_localization_loss: 12.9409 loss_total_loss: 21.7242
+[92m03-10 14:48:26[0m Epoch 0/10 itr 102/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.3020 loss_localization_loss: 2.9072 loss_total_loss: 8.2092
+[92m03-10 14:48:26[0m Epoch 0/10 itr 103/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.3317 loss_localization_loss: 2.4739 loss_total_loss: 6.8056
+[92m03-10 14:48:27[0m Epoch 0/10 itr 104/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.3659 loss_localization_loss: 0.9144 loss_total_loss: 3.2803
+[92m03-10 14:48:27[0m Epoch 0/10 itr 105/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 8.5344 loss_localization_loss: 7.4378 loss_total_loss: 15.9721
+[92m03-10 14:48:27[0m Epoch 0/10 itr 106/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.1279 loss_localization_loss: 3.2828 loss_total_loss: 8.4108
+[92m03-10 14:48:27[0m Epoch 0/10 itr 107/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 14.6766 loss_localization_loss: 11.8125 loss_total_loss: 26.4891
+[92m03-10 14:48:28[0m Epoch 0/10 itr 108/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.2090 loss_localization_loss: 2.6821 loss_total_loss: 6.8911
+[92m03-10 14:48:28[0m Epoch 0/10 itr 109/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.6189 loss_localization_loss: 4.5367 loss_total_loss: 8.1557
+[92m03-10 14:48:28[0m Epoch 0/10 itr 110/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.7465 loss_localization_loss: 0.7091 loss_total_loss: 2.4556
+[92m03-10 14:48:28[0m Epoch 0/10 itr 111/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.4076 loss_localization_loss: 0.4964 loss_total_loss: 3.9040
+[92m03-10 14:48:29[0m Epoch 0/10 itr 112/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.4949 loss_localization_loss: 3.0062 loss_total_loss: 5.5012
+[92m03-10 14:48:29[0m Epoch 0/10 itr 113/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.4246 loss_localization_loss: 2.0495 loss_total_loss: 4.4741
+[92m03-10 14:48:29[0m Epoch 0/10 itr 114/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.6207 loss_localization_loss: 3.1945 loss_total_loss: 4.8152
+[92m03-10 14:48:30[0m Epoch 0/10 itr 115/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.1370 loss_localization_loss: 2.5813 loss_total_loss: 6.7183
+[92m03-10 14:48:30[0m Epoch 0/10 itr 116/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.1615 loss_localization_loss: 7.7460 loss_total_loss: 12.9075
+[92m03-10 14:48:30[0m Epoch 0/10 itr 117/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.0316 loss_localization_loss: 1.1431 loss_total_loss: 5.1747
+[92m03-10 14:48:30[0m Epoch 0/10 itr 118/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.6421 loss_localization_loss: 2.1041 loss_total_loss: 6.7461
+[92m03-10 14:48:31[0m Epoch 0/10 itr 119/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.7311 loss_localization_loss: 1.2865 loss_total_loss: 4.0177
+[92m03-10 14:48:31[0m Epoch 0/10 itr 120/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.4819 loss_localization_loss: 1.4904 loss_total_loss: 4.9723
+[92m03-10 14:48:31[0m Epoch 0/10 itr 121/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.5179 loss_localization_loss: 0.9059 loss_total_loss: 2.4237
+[92m03-10 14:48:32[0m Epoch 0/10 itr 122/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 9.2607 loss_localization_loss: 6.4951 loss_total_loss: 15.7557
+[92m03-10 14:48:32[0m Epoch 0/10 itr 123/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 18.0803 loss_localization_loss: 6.8664 loss_total_loss: 24.9467
+[92m03-10 14:48:32[0m Epoch 0/10 itr 124/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.9379 loss_localization_loss: 1.0512 loss_total_loss: 3.9891
+[92m03-10 14:48:32[0m Epoch 0/10 itr 125/32058: lr: 0.0001 speed: 0.27(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.9797 loss_localization_loss: 3.4506 loss_total_loss: 6.4302
+[92m03-10 14:48:33[0m Epoch 0/10 itr 126/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.3129 loss_localization_loss: 7.2615 loss_total_loss: 12.5743
+[92m03-10 14:48:33[0m Epoch 0/10 itr 127/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.5129 loss_localization_loss: 1.0171 loss_total_loss: 3.5301
+[92m03-10 14:48:33[0m Epoch 0/10 itr 128/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.2334 loss_localization_loss: 3.5806 loss_total_loss: 7.8139
+[92m03-10 14:48:33[0m Epoch 0/10 itr 129/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.5388 loss_localization_loss: 5.1324 loss_total_loss: 10.6712
+[92m03-10 14:48:34[0m Epoch 0/10 itr 130/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.0377 loss_localization_loss: 2.6906 loss_total_loss: 6.7283
+[92m03-10 14:48:34[0m Epoch 0/10 itr 131/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.8820 loss_localization_loss: 10.3827 loss_total_loss: 12.2646
+[92m03-10 14:48:34[0m Epoch 0/10 itr 132/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 1.5699 loss_localization_loss: 1.5607 loss_total_loss: 3.1306
+[92m03-10 14:48:35[0m Epoch 0/10 itr 133/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.6495 loss_localization_loss: 0.5305 loss_total_loss: 4.1799
+[92m03-10 14:48:35[0m Epoch 0/10 itr 134/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.8181 loss_localization_loss: 3.8635 loss_total_loss: 6.6817
+[92m03-10 14:48:35[0m Epoch 0/10 itr 135/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 6.8281 loss_localization_loss: 4.0438 loss_total_loss: 10.8719
+[92m03-10 14:48:35[0m Epoch 0/10 itr 136/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.1711 loss_localization_loss: 3.6345 loss_total_loss: 7.8056
+[92m03-10 14:48:36[0m Epoch 0/10 itr 137/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.6326 loss_localization_loss: 4.2152 loss_total_loss: 6.8478
+[92m03-10 14:48:36[0m Epoch 0/10 itr 138/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 6.2650 loss_localization_loss: 2.7192 loss_total_loss: 8.9843
+[92m03-10 14:48:36[0m Epoch 0/10 itr 139/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 0.6756 loss_localization_loss: 2.1186 loss_total_loss: 2.7942
+[92m03-10 14:48:37[0m Epoch 0/10 itr 140/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 7.6099 loss_localization_loss: 8.1754 loss_total_loss: 15.7852
+[92m03-10 14:48:37[0m Epoch 0/10 itr 141/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 5.7020 loss_localization_loss: 7.0188 loss_total_loss: 12.7208
+[92m03-10 14:48:37[0m Epoch 0/10 itr 142/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.1608 loss_localization_loss: 3.0914 loss_total_loss: 7.2522
+[92m03-10 14:48:37[0m Epoch 0/10 itr 143/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.1257 loss_localization_loss: 1.6395 loss_total_loss: 4.7652
+[92m03-10 14:48:38[0m Epoch 0/10 itr 144/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 0.9130 loss_localization_loss: 0.7026 loss_total_loss: 1.6156
+[92m03-10 14:48:38[0m Epoch 0/10 itr 145/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.1110 loss_localization_loss: 4.8816 loss_total_loss: 6.9926
+[92m03-10 14:48:38[0m Epoch 0/10 itr 146/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.6035 loss_localization_loss: 3.7741 loss_total_loss: 6.3776
+[92m03-10 14:48:38[0m Epoch 0/10 itr 147/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.8163 loss_localization_loss: 8.3798 loss_total_loss: 11.1961
+[92m03-10 14:48:39[0m Epoch 0/10 itr 148/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 2.7903 loss_localization_loss: 3.6508 loss_total_loss: 6.4411
+[92m03-10 14:48:39[0m Epoch 0/10 itr 149/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 3.7359 loss_localization_loss: 2.7933 loss_total_loss: 6.5292
+[92m03-10 14:48:39[0m Epoch 0/10 itr 150/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 4.8330 loss_localization_loss: 2.5332 loss_total_loss: 7.3662
+[92m03-10 14:48:40[0m Epoch 0/10 itr 151/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 0.6865 loss_localization_loss: 0.7242 loss_total_loss: 1.4107
+[92m03-10 14:48:40[0m Epoch 0/10 itr 152/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 11.2505 loss_localization_loss: 7.4612 loss_total_loss: 18.7117
+[92m03-10 14:48:40[0m Epoch 0/10 itr 153/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.45h/epoch loss_objectiveness_loss: 6.3269 loss_localization_loss: 7.8506 loss_total_loss: 14.1775
+[92m03-10 14:48:40[0m Epoch 0/10 itr 154/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 8.3419 loss_localization_loss: 8.5862 loss_total_loss: 16.9281
+[92m03-10 14:48:41[0m Epoch 0/10 itr 155/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 6.4277 loss_localization_loss: 3.7874 loss_total_loss: 10.2151
+[92m03-10 14:48:41[0m Epoch 0/10 itr 156/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 3.0453 loss_localization_loss: 0.6580 loss_total_loss: 3.7034
+[92m03-10 14:48:41[0m Epoch 0/10 itr 157/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.5480 loss_localization_loss: 2.5228 loss_total_loss: 5.0708
+[92m03-10 14:48:42[0m Epoch 0/10 itr 158/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 9.5327 loss_localization_loss: 7.4750 loss_total_loss: 17.0078
+[92m03-10 14:48:42[0m Epoch 0/10 itr 159/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 3.0255 loss_localization_loss: 1.0669 loss_total_loss: 4.0924
+[92m03-10 14:48:42[0m Epoch 0/10 itr 160/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 5.3866 loss_localization_loss: 1.2906 loss_total_loss: 6.6773
+[92m03-10 14:48:42[0m Epoch 0/10 itr 161/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 4.0698 loss_localization_loss: 8.4019 loss_total_loss: 12.4717
+[92m03-10 14:48:43[0m Epoch 0/10 itr 162/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 5.2261 loss_localization_loss: 7.7324 loss_total_loss: 12.9585
+[92m03-10 14:48:43[0m Epoch 0/10 itr 163/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 5.7374 loss_localization_loss: 3.8671 loss_total_loss: 9.6045
+[92m03-10 14:48:43[0m Epoch 0/10 itr 164/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.9550 loss_localization_loss: 1.9208 loss_total_loss: 4.8758
+[92m03-10 14:48:44[0m Epoch 0/10 itr 165/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 6.6613 loss_localization_loss: 6.1488 loss_total_loss: 12.8101
+[92m03-10 14:48:44[0m Epoch 0/10 itr 166/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.9137 loss_localization_loss: 1.2018 loss_total_loss: 4.1155
+[92m03-10 14:48:44[0m Epoch 0/10 itr 167/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.1488 loss_localization_loss: 3.0163 loss_total_loss: 5.1651
+[92m03-10 14:48:44[0m Epoch 0/10 itr 168/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.1718 loss_localization_loss: 1.2541 loss_total_loss: 3.4259
+[92m03-10 14:48:45[0m Epoch 0/10 itr 169/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 3.8527 loss_localization_loss: 0.7772 loss_total_loss: 4.6299
+[92m03-10 14:48:45[0m Epoch 0/10 itr 170/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.4933 loss_localization_loss: 7.2780 loss_total_loss: 9.7714
+[92m03-10 14:48:45[0m Epoch 0/10 itr 171/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 8.1079 loss_localization_loss: 8.0927 loss_total_loss: 16.2006
+[92m03-10 14:48:45[0m Epoch 0/10 itr 172/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.4060 loss_localization_loss: 0.5688 loss_total_loss: 2.9748
+[92m03-10 14:48:46[0m Epoch 0/10 itr 173/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.3534 loss_localization_loss: 1.6966 loss_total_loss: 4.0500
+[92m03-10 14:48:46[0m Epoch 0/10 itr 174/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 1.4533 loss_localization_loss: 0.9758 loss_total_loss: 2.4292
+[92m03-10 14:48:46[0m Epoch 0/10 itr 175/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.7396 loss_localization_loss: 1.7774 loss_total_loss: 4.5170
+[92m03-10 14:48:47[0m Epoch 0/10 itr 176/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 20.9887 loss_localization_loss: 11.1767 loss_total_loss: 32.1654
+[92m03-10 14:48:47[0m Epoch 0/10 itr 177/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 6.8386 loss_localization_loss: 6.8855 loss_total_loss: 13.7241
+[92m03-10 14:48:47[0m Epoch 0/10 itr 178/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 4.4825 loss_localization_loss: 7.2130 loss_total_loss: 11.6955
+[92m03-10 14:48:48[0m Epoch 0/10 itr 179/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 2.7373 loss_localization_loss: 2.5949 loss_total_loss: 5.3322
+[92m03-10 14:48:48[0m Epoch 0/10 itr 180/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.46h/epoch loss_objectiveness_loss: 4.6178 loss_localization_loss: 8.8953 loss_total_loss: 13.5131
+[92m03-10 14:48:48[0m Epoch 0/10 itr 181/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 5.6093 loss_localization_loss: 2.2681 loss_total_loss: 7.8774
+[92m03-10 14:48:48[0m Epoch 0/10 itr 182/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 4.4132 loss_localization_loss: 0.8666 loss_total_loss: 5.2798
+[92m03-10 14:48:49[0m Epoch 0/10 itr 183/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 9.2948 loss_localization_loss: 11.1419 loss_total_loss: 20.4367
+[92m03-10 14:48:49[0m Epoch 0/10 itr 184/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 2.7703 loss_localization_loss: 1.3086 loss_total_loss: 4.0789
+[92m03-10 14:48:49[0m Epoch 0/10 itr 185/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 6.6245 loss_localization_loss: 4.4591 loss_total_loss: 11.0835
+[92m03-10 14:48:50[0m Epoch 0/10 itr 186/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 5.7388 loss_localization_loss: 5.3198 loss_total_loss: 11.0587
+[92m03-10 14:48:50[0m Epoch 0/10 itr 187/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 7.6721 loss_localization_loss: 6.7695 loss_total_loss: 14.4416
+[92m03-10 14:48:50[0m Epoch 0/10 itr 188/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 9.6695 loss_localization_loss: 5.7697 loss_total_loss: 15.4392
+[92m03-10 14:48:50[0m Epoch 0/10 itr 189/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 12.5727 loss_localization_loss: 4.8373 loss_total_loss: 17.4100
+[92m03-10 14:48:51[0m Epoch 0/10 itr 190/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 11.0429 loss_localization_loss: 2.6132 loss_total_loss: 13.6561
+[92m03-10 14:48:51[0m Epoch 0/10 itr 191/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 1.9086 loss_localization_loss: 0.6433 loss_total_loss: 2.5519
+[92m03-10 14:48:51[0m Epoch 0/10 itr 192/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 1.7939 loss_localization_loss: 1.1544 loss_total_loss: 2.9483
+[92m03-10 14:48:51[0m Epoch 0/10 itr 193/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 3.4093 loss_localization_loss: 0.8201 loss_total_loss: 4.2294
+[92m03-10 14:48:52[0m Epoch 0/10 itr 194/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 3.6449 loss_localization_loss: 1.7944 loss_total_loss: 5.4393
+[92m03-10 14:48:52[0m Epoch 0/10 itr 195/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 7.8413 loss_localization_loss: 4.7175 loss_total_loss: 12.5589
+[92m03-10 14:48:52[0m Epoch 0/10 itr 196/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 9.6158 loss_localization_loss: 6.8029 loss_total_loss: 16.4187
+[92m03-10 14:48:53[0m Epoch 0/10 itr 197/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 13.2096 loss_localization_loss: 11.8375 loss_total_loss: 25.0471
+[92m03-10 14:48:53[0m Epoch 0/10 itr 198/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 2.4499 loss_localization_loss: 1.7698 loss_total_loss: 4.2198
+[92m03-10 14:48:53[0m Epoch 0/10 itr 199/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 4.9253 loss_localization_loss: 4.4508 loss_total_loss: 9.3761
+[92m03-10 14:48:54[0m Epoch 0/10 itr 200/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 2.9187 loss_localization_loss: 1.6239 loss_total_loss: 4.5426
+[92m03-10 14:48:54[0m Epoch 0/10 itr 201/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 3.5596 loss_localization_loss: 8.1150 loss_total_loss: 11.6746
+[92m03-10 14:48:54[0m Epoch 0/10 itr 202/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 4.0437 loss_localization_loss: 6.1828 loss_total_loss: 10.2265
+[92m03-10 14:48:54[0m Epoch 0/10 itr 203/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 3.7779 loss_localization_loss: 1.9468 loss_total_loss: 5.7248
+[92m03-10 14:48:55[0m Epoch 0/10 itr 204/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 5.0999 loss_localization_loss: 2.5013 loss_total_loss: 7.6012
+[92m03-10 14:48:55[0m Epoch 0/10 itr 205/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 0.7399 loss_localization_loss: 1.0370 loss_total_loss: 1.7768
+[92m03-10 14:48:55[0m Epoch 0/10 itr 206/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 7.1546 loss_localization_loss: 2.1228 loss_total_loss: 9.2774
+[92m03-10 14:48:55[0m Epoch 0/10 itr 207/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 5.3478 loss_localization_loss: 6.4095 loss_total_loss: 11.7574
+[92m03-10 14:48:56[0m Epoch 0/10 itr 208/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 6.2936 loss_localization_loss: 8.1180 loss_total_loss: 14.4116
+[92m03-10 14:48:56[0m Epoch 0/10 itr 209/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.47h/epoch loss_objectiveness_loss: 5.1929 loss_localization_loss: 6.1545 loss_total_loss: 11.3473
+[92m03-10 14:48:56[0m Epoch 0/10 itr 210/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.48h/epoch loss_objectiveness_loss: 1.9049 loss_localization_loss: 1.8126 loss_total_loss: 3.7175
+[92m03-10 14:48:57[0m Epoch 0/10 itr 211/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.48h/epoch loss_objectiveness_loss: 3.6920 loss_localization_loss: 1.2786 loss_total_loss: 4.9706
+[92m03-10 14:48:57[0m Epoch 0/10 itr 212/32058: lr: 0.0001 speed: 0.28(0.27s r0.00)s/itr 2.48h/epoch loss_objectiveness_loss: 6.0091 loss_localization_loss: 2.7450 loss_total_loss: 8.7541
