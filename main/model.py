@@ -7,7 +7,7 @@ from torch.nn import functional as F
 
 from nets.fpn import FPN
 from nets.rpn import RPN
-from utils.anchor_generators import *
+from utils.anchor_generators import generate_all_anchors, all_anchors_to_image_scale
 from utils.IoU import get_IoU, area, get_IoU_tensor
 
 from config import cfg

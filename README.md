@@ -68,8 +68,8 @@ TODO:
 
 # Week4
 
+03.10 Implemented rpn losses, transform_delta, RPN under train
+
 TODO: RPN training for region proposals
-- implement trasnform bbox delta function
-- define rpn losses for each header
 - implement NMS function
 - init weights and train rpn for one image as test
