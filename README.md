@@ -70,6 +70,16 @@ TODO:
 
 03.10 Implemented rpn losses, transform_delta, RPN under train
 
+# Week5
+
+03.13 Tested rpn on one image
+
+![Screenshot](/assets/vis_proposals/out10.png)
+![Screenshot](/assets/vis_proposals/out20.png)
+![Screenshot](/assets/vis_proposals/out50.png)
+![Screenshot](/assets/vis_proposals/out100.png)
+![Screenshot](/assets/vis_proposals/out200.png)
+
+
 TODO: RPN training for region proposals
 - implement NMS function
-- init weights and train rpn for one image as test

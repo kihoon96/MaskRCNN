@@ -38,7 +38,7 @@ class Model(nn.Module):
             gt_bboxes.append(padded_gt_bboxes[:num_valid_bbox])
 
         fpn_fms = self.backbone(inputs['img'])
-        rpn_losses = self.rpn(fpn_fms ,self.anchors, gt_bboxes)
+        rpn_losses = self.rpn(inputs, fpn_fms ,self.anchors, gt_bboxes, meta_info['itr'])
 
         # anchor visualize
         vis = False

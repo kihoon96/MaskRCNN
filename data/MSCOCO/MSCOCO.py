@@ -37,6 +37,9 @@ class MSCOCO(torch.utils.data.Dataset):
         self.imgIds = self.coco.getImgIds(catIds=self.catIds)
 
     def __getitem__(self, index):
+        vis = False
+        if vis:
+            index = 6
         img = self.coco.loadImgs(self.imgIds[index])[0]
         # img cv2 bgr to rgb
         img_file_path = osp.join(self.img_path, img['file_name'])

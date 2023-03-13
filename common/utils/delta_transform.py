@@ -5,6 +5,7 @@ import math
 
 _DEFAULT_SCALE_CLAMP = math.log(1000.0 / 16)
 weights = [1.0, 1.0, 1.0, 1.0]
+scale_clamp = _DEFAULT_SCALE_CLAMP
 
 #xyxy
 def get_deltas(src_boxes, target_boxes):
@@ -43,8 +44,8 @@ def apply_deltas(deltas, boxes):
         dh = deltas[:, 3::4] / wh
 
         # Prevent sending too large values into torch.exp()
-        dw = torch.clamp(dw, max=self.scale_clamp)
-        dh = torch.clamp(dh, max=self.scale_clamp)
+        dw = torch.clamp(dw, max=scale_clamp)
+        dh = torch.clamp(dh, max=scale_clamp)
 
         pred_ctr_x = dx * widths[:, None] + ctr_x[:, None]
         pred_ctr_y = dy * heights[:, None] + ctr_y[:, None]
@@ -58,6 +59,39 @@ def apply_deltas(deltas, boxes):
         pred_boxes = torch.stack((x1, y1, x2, y2), dim=-1)
         return pred_boxes.reshape(deltas.shape)
 
+
+def apply_deltas_one(deltas, boxes):
+        deltas = deltas.float()  # ensure fp32 for decoding precision
+        boxes = boxes.to(deltas.dtype)
+        boxes = boxes.unsqueeze(dim=0)
+        deltas = deltas.unsqueeze(dim=0)
+
+        widths = boxes[:, 2] - boxes[:, 0]
+        heights = boxes[:, 3] - boxes[:, 1]
+        ctr_x = boxes[:, 0] + 0.5 * widths
+        ctr_y = boxes[:, 1] + 0.5 * heights
+
+        wx, wy, ww, wh = weights
+        dx = deltas[:, 0::4] / wx
+        dy = deltas[:, 1::4] / wy
+        dw = deltas[:, 2::4] / ww
+        dh = deltas[:, 3::4] / wh
+
+        # Prevent sending too large values into torch.exp()
+        dw = torch.clamp(dw, max=scale_clamp)
+        dh = torch.clamp(dh, max=scale_clamp)
+
+        pred_ctr_x = dx * widths[:, None] + ctr_x[:, None]
+        pred_ctr_y = dy * heights[:, None] + ctr_y[:, None]
+        pred_w = torch.exp(dw) * widths[:, None]
+        pred_h = torch.exp(dh) * heights[:, None]
+
+        x1 = pred_ctr_x - 0.5 * pred_w
+        y1 = pred_ctr_y - 0.5 * pred_h
+        x2 = pred_ctr_x + 0.5 * pred_w
+        y2 = pred_ctr_y + 0.5 * pred_h
+        pred_boxes = torch.stack((x1, y1, x2, y2), dim=-1)
+        return pred_boxes.reshape(deltas.shape)
 '''
 
 def _dense_box_regression_loss(
