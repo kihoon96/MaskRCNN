@@ -80,6 +80,10 @@ TODO:
 ![Screenshot](/assets/vis_proposals/out100.png)
 ![Screenshot](/assets/vis_proposals/out200.png)
 
+03.15 Implemented NMS function
+
 
 TODO: RPN training for region proposals
-- implement NMS function
+- check&vis with nms applied (code test.py)
+- make mAP evaluation code from COCOeval format output as COCO annotation form
+- ROI align

@@ -45,6 +45,7 @@ class RPN(nn.Module):
 
     def forward(self, inputs, features, anchors, gt_bboxes, itr):
         pred_objectness_logits, pred_anchor_deltas = self.rpn_head(features)
+        
         pred_objectness_logits = [
             # (N, A, Hi, Wi) -> (N, Hi, Wi, A) -> (N, Hi*Wi*A)
             score.permute(0,2,3,1).flatten(1)

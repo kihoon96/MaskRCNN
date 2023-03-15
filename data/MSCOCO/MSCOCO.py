@@ -35,6 +35,8 @@ class MSCOCO(torch.utils.data.Dataset):
             self.img_path = test_img_path
         self.catIds = self.coco.getCatIds(catNms=['person'])
         self.imgIds = self.coco.getImgIds(catIds=self.catIds)
+        
+        self.datalist = self.load_data()
 
     def __getitem__(self, index):
         vis = False
@@ -88,6 +90,45 @@ class MSCOCO(torch.utils.data.Dataset):
             raise ValueError('bbox over 20 need more dummy padding')
         
         return inputs, targets, meta_info
+
+
+    def load_data(self):
+        if self.mode == 'train':
+            db = COCO(train_annot_path)
+        else:
+            db = COCO(test_annot_path)
+        datalist = []
+
+        return datalist
+
+    def evaluate(self, outs, cur_sample_idx):
+        annots = self.datalist
+        sample_num = len(outs)
+        for n in range(sample_num):
+            annot = annots[cur_sample_idx + n]
+            ann_id = annot['ann_id']
+            out = outs[n]
+
+            if cfg.parts == 'body':
+                vis = False
+                if vis:
+                    #img = (out['img'].transpose(1,2,0)[:,:,::-1] * 255).copy()
+                    #cv2.imwrite(str(ann_id) + '.jpg', img)
+                    #save_obj(out['smpl_mesh_cam'], smpl.face, str(ann_id) + '_body.obj')
+
+                    # save SMPL parameter
+                    bbox = annot['bbox']
+                    smpl_pose = out['smpl_pose']; smpl_shape = out['smpl_shape']; smpl_trans = out['cam_trans']
+                    focal_x = cfg.focal[0] / cfg.input_img_shape[1] * bbox[2]
+                    focal_y = cfg.focal[1] / cfg.input_img_shape[0] * bbox[3]
+                    princpt_x = cfg.princpt[0] / cfg.input_img_shape[1] * bbox[2] + bbox[0]
+                    princpt_y = cfg.princpt[1] / cfg.input_img_shape[0] * bbox[3] + bbox[1]
+                    save_dict = {'smpl_param': {'pose': smpl_pose.reshape(-1).tolist(), 'shape': smpl_shape.reshape(-1).tolist(), 'trans': smpl_trans.reshape(-1).tolist()},\
+                                'cam_param': {'focal': (focal_x,focal_y), 'princpt': (princpt_x,princpt_y)}
+                                }
+                    with open(osp.join(cfg.result_dir, 'smpl_param_' + str(ann_id) + '.json'), 'w') as f:
+                        json.dump(save_dict, f)
+        return {}
 
     def __len__(self):
         return len(self.imgIds)
