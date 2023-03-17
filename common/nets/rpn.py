@@ -8,6 +8,7 @@ import cv2
 from utils.smooth_l1_loss import smooth_l1_loss
 from utils.anchor_generators import label_anchors, subsample_labels
 from utils.delta_transform import get_deltas, apply_deltas, apply_deltas_one
+from utils.nms import batched_nms
 
 import sys
 sys.path.append("...main")
@@ -75,7 +76,10 @@ class RPN(nn.Module):
             else:
                 ads = torch.cat((ads, ad), dim=1)
         pred_anchor_deltas = ads
+
+
         
+        # to tensor change!! bi ==0, stack bi==1, cat else
         labels = []
         gt_idx = []
         pos_idx = []
@@ -100,9 +104,21 @@ class RPN(nn.Module):
 
         pre_nms_topk = [] # 2000
         post_nms_topk = [] # 1000
-        values, indices = pred_objectness_logits.topk(cfg.pre_nms_topk)
+        nms_logits, idxs = pred_objectness_logits.topk(cfg.pre_nms_topk, sorted=False)
+        scores = torch.sigmoid(nms_logits)
+
+        for bi in range(cfg.train_batch_size):
+            if bi == 0:
+                nms_deltas = pred_anchor_deltas[bi][idxs[bi]]
+            else:
+                nms_deltas = torch.stack((nms_deltas, pred_anchor_deltas[bi][idxs[bi]]), dim = 0)
+        boxes = apply_deltas(nms_deltas, anchors[idxs])
+
+        if itr % 1000 == 0:
+            import pdb; pdb.set_trace()
+        iou_threshold = cfg.iou_threshold
+        post_nms = batched_nms(boxes[0], scores[0], idxs[0], iou_threshold)
         
-        import pdb; pdb.set_trace()
         
         #anchor pos&neg sampled visualize
         vis = False

@@ -27,6 +27,7 @@ class Config:
     sampling_anchor_num = 64
     positive_fraction = 0.5
 
+    iou_threshold = 0.7
     pre_nms_topk = 2000
     post_nms_topk = 1000
     
