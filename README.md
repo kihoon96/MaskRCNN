@@ -84,6 +84,6 @@ TODO:
 
 
 TODO: RPN training for region proposals
-- check&vis with nms applied (code test.py)
+- check&vis with nms applied (code test.py) <- Topk, nms implementation on feature level?(anchor should be feature level mapped?)
 - make mAP evaluation code from COCOeval format output as COCO annotation form
 - ROI align

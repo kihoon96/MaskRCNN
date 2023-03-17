@@ -26,6 +26,9 @@ class Config:
     IoU_neg_thresh = 0.3
     sampling_anchor_num = 64
     positive_fraction = 0.5
+
+    pre_nms_topk = 2000
+    post_nms_topk = 1000
     
     sigma = 2.5
 

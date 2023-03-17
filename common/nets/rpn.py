@@ -9,6 +9,10 @@ from utils.smooth_l1_loss import smooth_l1_loss
 from utils.anchor_generators import label_anchors, subsample_labels
 from utils.delta_transform import get_deltas, apply_deltas, apply_deltas_one
 
+import sys
+sys.path.append("...main")
+from config import cfg
+
 class RPNHead(nn.Module):
     def __init__(self):
         super(RPNHead, self).__init__()
@@ -80,7 +84,7 @@ class RPN(nn.Module):
         gt_deltas = []
         object_loss = []
         local_loss = []
-        for bi in range(2): #need to change to batch size from cfg
+        for bi in range(cfg.train_batch_size):
             #device = anchors.cuda.current_device()
             label, gt_i = label_anchors(anchors, gt_bboxes[bi])
             pos_i, neg_i = subsample_labels(label)
@@ -93,65 +97,72 @@ class RPN(nn.Module):
             valid_idx.append(torch.cat((pos_i, neg_i)))
             object_loss.append(F.binary_cross_entropy_with_logits(pred_objectness_logits[bi][valid_idx[bi]], labels[bi][valid_idx[bi]],reduction="sum"))
             local_loss.append(smooth_l1_loss(pred_anchor_deltas[bi][pos_idx[bi]], gt_deltas[bi][pos_idx[bi]], beta=0.0, reduction="sum"))
+
+        pre_nms_topk = [] # 2000
+        post_nms_topk = [] # 1000
+        values, indices = pred_objectness_logits.topk(cfg.pre_nms_topk)
+        
+        import pdb; pdb.set_trace()
         
         #anchor pos&neg sampled visualize
         vis = False
-        gt_bboxes_t = gt_bboxes[1]
-        pos_idx_t = pos_idx[1]
-        neg_idx_t = neg_idx[1]
-        if vis and ((itr % 10) == 0):
-            cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
-            for gti, gt_bbox in enumerate(gt_bboxes_t):
-                gt_bbox = gt_bbox.cpu().numpy().astype(int)
-                cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
-                cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
-                                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)        
-            for pos_i in pos_idx_t:
-                pa = anchors[pos_i].cpu().numpy().astype(int)
-                cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
-            for neg_i in neg_idx_t:
-                na = anchors[neg_i].cpu().numpy().astype(int)
-                cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
-            cv2.imwrite(f"test.png", cvimg)
-
+        if vis:
+            gt_bboxes_t = gt_bboxes[1]
+            pos_idx_t = pos_idx[1]
+            neg_idx_t = neg_idx[1]
+            if (itr % 10) == 0:
+                cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+                for gti, gt_bbox in enumerate(gt_bboxes_t):
+                    gt_bbox = gt_bbox.cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
+                    cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
+                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)        
+                for pos_i in pos_idx_t:
+                    pa = anchors[pos_i].cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
+                for neg_i in neg_idx_t:
+                    na = anchors[neg_i].cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
+                cv2.imwrite(f"test.png", cvimg)
 
         #proposal visualization
         vis = False
-        pred_deltas = pred_anchor_deltas[1]
-        pred_logits = pred_objectness_logits[1]
-        proposed_pos_idx = (torch.sigmoid(pred_logits) > 0.95).nonzero().squeeze(dim=1)
-        proposed_neg_idx = (torch.sigmoid(pred_logits) < 0.3).nonzero().squeeze(dim=1)
-        num_anchors = anchors.shape[0]
-        p_labels = torch.full((num_anchors,), -1, dtype=torch.float32, device=torch.cuda.current_device())
-        p_labels[proposed_pos_idx] = 1
-        p_labels[proposed_neg_idx] = 0
-        pos_idx_t, neg_idx_t = subsample_labels(p_labels)
-        if vis and ((itr % 10) == 0):
-            cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
-            for gti, gt_bbox in enumerate(gt_bboxes_t):
-                gt_bbox = gt_bbox.cpu().numpy().astype(int)
-                cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
-                cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
-                                    cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)    
-            for pos_i in pos_idx_t:
-                pa = apply_deltas_one(pred_deltas[pos_i], anchors[pos_i])
-                pa = pa.squeeze(dim=0).detach().cpu().numpy().astype(int)
-                cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
-            for neg_i in neg_idx_t:
-                na = anchors[neg_i].cpu().numpy().astype(int)
-                cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
-            
-            cv2.imwrite(f"proposals.png", cvimg)
+        if vis:
+            pred_deltas = pred_anchor_deltas[1]
+            pred_logits = pred_objectness_logits[1]
+            proposed_pos_idx = (torch.sigmoid(pred_logits) > 0.95).nonzero().squeeze(dim=1)
+            proposed_neg_idx = (torch.sigmoid(pred_logits) < 0.3).nonzero().squeeze(dim=1)
+            num_anchors = anchors.shape[0]
+            p_labels = torch.full((num_anchors,), -1, dtype=torch.float32, device=torch.cuda.current_device())
+            p_labels[proposed_pos_idx] = 1
+            p_labels[proposed_neg_idx] = 0
+            pos_idx_t, neg_idx_t = subsample_labels(p_labels)
+            if (itr % 10) == 0:
+                cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+                for gti, gt_bbox in enumerate(gt_bboxes_t):
+                    gt_bbox = gt_bbox.cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
+                    cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
+                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)    
+                for pos_i in pos_idx_t:
+                    pa = apply_deltas_one(pred_deltas[pos_i], anchors[pos_i])
+                    pa = pa.squeeze(dim=0).detach().cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
+                for neg_i in neg_idx_t:
+                    na = anchors[neg_i].cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
+                
+                cv2.imwrite(f"proposals.png", cvimg)
 
-        if vis and ((itr % 10) == 0):
-            img1 = cv2.imread('test.png')
-            img2 = cv2.imread('proposals.png')
-            vis = np.concatenate((img1, img2), axis=1)
-            vis = cv2.putText(vis.copy(), 'iterations:' + str(itr), (30,100),
-                                    cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 5) 
-            #cv2.imwrite('out.png', vis)
-          
-            cv2.imwrite('./vis/out' + str(itr) + '.png', vis)
+            if (itr % 10) == 0:
+                img1 = cv2.imread('test.png')
+                img2 = cv2.imread('proposals.png')
+                vis = np.concatenate((img1, img2), axis=1)
+                vis = cv2.putText(vis.copy(), 'iterations:' + str(itr), (30,100),
+                                        cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 5) 
+                #cv2.imwrite('out.png', vis)
+            
+                cv2.imwrite('./vis/out' + str(itr) + '.png', vis)
 
 
 
