@@ -27,15 +27,15 @@ class Config:
     sampling_anchor_num = 64
     positive_fraction = 0.5
 
-    iou_threshold = 0.7
-    pre_nms_topk = 2000
-    post_nms_topk = 1000
+    iou_threshold = 0.3
+    pre_nms_topk = 100
+    post_nms_topk = 50
     
     sigma = 2.5
 
     ## training config
-    lr_dec_epoch = [10,12]
-    end_epoch = 10
+    lr_dec_epoch = [10,20]
+    end_epoch = 30
     lr = 1e-4
     lr_dec_factor = 10
     train_batch_size = 2
@@ -64,23 +64,13 @@ class Config:
     mano_path = osp.join(root_dir, 'common', 'utils', 'manopth')
     smpl_path = osp.join(root_dir, 'common', 'utils', 'smplpytorch')
     
-    def set_args(self, gpu_ids, stage='lixel', continue_train=False):
+    def set_args(self, gpu_ids, continue_train=False):
         self.gpu_ids = gpu_ids
         self.num_gpus = len(self.gpu_ids.split(','))
-        self.stage = stage
-        # extend training schedule
-        if self.stage == 'param':
-            self.lr_dec_epoch = [x+5 for x in self.lr_dec_epoch]
-            self.end_epoch = self.end_epoch + 5
         self.continue_train = continue_train
         os.environ["CUDA_VISIBLE_DEVICES"] = self.gpu_ids
         print('>>> Using GPU: {}'.format(self.gpu_ids))
         
-        if self.testset == 'FreiHAND':
-            assert self.trainset_3d[0] == 'FreiHAND'
-            assert len(self.trainset_3d) == 1
-            assert len(self.trainset_2d) == 0
-
 cfg = Config()
 
 sys.path.insert(0, osp.join(cfg.root_dir, 'common'))

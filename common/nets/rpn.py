@@ -8,7 +8,7 @@ import cv2
 from utils.smooth_l1_loss import smooth_l1_loss
 from utils.anchor_generators import label_anchors, subsample_labels
 from utils.delta_transform import get_deltas, apply_deltas, apply_deltas_one
-from utils.nms import batched_nms
+from utils.nms import batched_nms, nms
 
 import sys
 sys.path.append("...main")
@@ -106,18 +106,21 @@ class RPN(nn.Module):
         post_nms_topk = [] # 1000
         nms_logits, idxs = pred_objectness_logits.topk(cfg.pre_nms_topk, sorted=False)
         scores = torch.sigmoid(nms_logits)
-
+        
         for bi in range(cfg.train_batch_size):
             if bi == 0:
                 nms_deltas = pred_anchor_deltas[bi][idxs[bi]]
             else:
                 nms_deltas = torch.stack((nms_deltas, pred_anchor_deltas[bi][idxs[bi]]), dim = 0)
-        boxes = apply_deltas(nms_deltas, anchors[idxs])
+        boxes = apply_deltas(nms_deltas[1], anchors[idxs][1])
 
-        if itr % 1000 == 0:
-            import pdb; pdb.set_trace()
-        iou_threshold = cfg.iou_threshold
-        post_nms = batched_nms(boxes[0], scores[0], idxs[0], iou_threshold)
+        #if itr % 1000 == 0:
+            #import pdb; pdb.set_trace()
+        
+        #post_nms = batched_nms(boxes[1], scores[1], idxs[1], iou_threshold)
+        post_nms = nms(boxes.detach().cpu(), scores[1].detach().cpu(), iou_threshold = cfg.iou_threshold)
+
+        #post_nms = idxs[1][post_nms]
         
         
         #anchor pos&neg sampled visualize
@@ -142,8 +145,9 @@ class RPN(nn.Module):
                 cv2.imwrite(f"test.png", cvimg)
 
         #proposal visualization
-        vis = False
+        vis = True
         if vis:
+            gt_bboxes_t = gt_bboxes[1]
             pred_deltas = pred_anchor_deltas[1]
             pred_logits = pred_objectness_logits[1]
             proposed_pos_idx = (torch.sigmoid(pred_logits) > 0.95).nonzero().squeeze(dim=1)
@@ -168,23 +172,34 @@ class RPN(nn.Module):
                     na = anchors[neg_i].cpu().numpy().astype(int)
                     cvimg = cv2.rectangle(cvimg.copy(), na[:2], na[2:], (0,0,255), 3)
                 
-                cv2.imwrite(f"proposals.png", cvimg)
+                cv2.imwrite(f"proposals_0.95.png", cvimg)
 
+        #nms visualization
+        vis = True
+        if vis:
+            pred_deltas = pred_anchor_deltas[1]
+            pred_logits = pred_objectness_logits[1]
             if (itr % 10) == 0:
-                img1 = cv2.imread('test.png')
-                img2 = cv2.imread('proposals.png')
-                vis = np.concatenate((img1, img2), axis=1)
-                vis = cv2.putText(vis.copy(), 'iterations:' + str(itr), (30,100),
-                                        cv2.FONT_HERSHEY_SIMPLEX, 2, (255,255,255), 5) 
-                #cv2.imwrite('out.png', vis)
-            
-                cv2.imwrite('./vis/out' + str(itr) + '.png', vis)
+                gt_bboxes_t = gt_bboxes[1]
+                cvimg = (inputs['img'][bi].cpu().numpy().transpose(1,2,0)*255).astype(np.uint8)[:,:,::-1]
+                for gti, gt_bbox in enumerate(gt_bboxes_t):
+                    gt_bbox = gt_bbox.cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), gt_bbox[:2], gt_bbox[2:], (0,255,0), 3)
+                    cvimg = cv2.putText(cvimg.copy(), str(gti), gt_bbox[:2] + [5, 20],
+                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0,255,0), 3)    
+                for post_i in post_nms:
+                    #import pdb; pdb.set_trace()
+                    #pa = apply_deltas_one(pred_deltas[post_i], anchors[post_i])
+                    pa = boxes[post_i]
+                    pa = pa.squeeze(dim=0).detach().cpu().numpy().astype(int)
+                    cvimg = cv2.rectangle(cvimg.copy(), pa[:2], pa[2:], (255,0,0), 3)
+                    cvimg = cv2.putText(cvimg.copy(), str(round(scores[1][post_i].item(), 4)), pa[:2] + [5, 20],
+                                        cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255,0,0), 3)    
+                
+                cv2.imwrite(f"proposals_nms.png", cvimg)
 
 
 
-
-        if self.training:
-            gt_labels, gt_bboxes = 1,1
         object_loss = (object_loss[0] + object_loss[1])/2.0
         local_loss = (local_loss[0] + local_loss[1])/2.0
         return object_loss, local_loss

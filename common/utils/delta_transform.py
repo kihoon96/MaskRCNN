@@ -52,6 +52,8 @@ def apply_deltas(deltas, boxes):
         pred_w = torch.exp(dw) * widths[:, None]
         pred_h = torch.exp(dh) * heights[:, None]
 
+        pred_w = torch.abs(pred_w)
+        pred_h = torch.abs(pred_h)
         x1 = pred_ctr_x - 0.5 * pred_w
         y1 = pred_ctr_y - 0.5 * pred_h
         x2 = pred_ctr_x + 0.5 * pred_w
@@ -85,6 +87,10 @@ def apply_deltas_one(deltas, boxes):
         pred_ctr_y = dy * heights[:, None] + ctr_y[:, None]
         pred_w = torch.exp(dw) * widths[:, None]
         pred_h = torch.exp(dh) * heights[:, None]
+
+
+        pred_w = torch.abs(pred_w)
+        pred_h = torch.abs(pred_h)
 
         x1 = pred_ctr_x - 0.5 * pred_w
         y1 = pred_ctr_y - 0.5 * pred_h

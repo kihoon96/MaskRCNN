@@ -98,7 +98,7 @@ class MSCOCO(torch.utils.data.Dataset):
         else:
             db = COCO(test_annot_path)
         datalist = []
-        
+
 
         return datalist
 

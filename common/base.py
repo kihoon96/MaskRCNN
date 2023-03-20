@@ -65,7 +65,7 @@ class Trainer(Base):
         ckpt = torch.load(ckpt_path) 
         start_epoch = ckpt['epoch'] + 1
         model.load_state_dict(ckpt['network'], strict=False)
-        #optimizer.load_state_dict(ckpt['optimizer'])
+        optimizer.load_state_dict(ckpt['optimizer'])
 
         self.logger.info('Load checkpoint from {}'.format(ckpt_path))
         return start_epoch, model, optimizer
