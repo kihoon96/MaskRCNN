@@ -81,9 +81,13 @@ TODO:
 ![Screenshot](/assets/vis_proposals/out200.png)
 
 03.15 Implemented NMS function
+03.21 Trained RPN, visualized qualitative results
+![Screenshot](/assets/cherrypickings/1.png)
+![Screenshot](/assets/cherrypickings/proposals_nms%20copy%202.png)
+![Screenshot](/assets/cherrypickings/proposals_nms%20copy%203.png)
+![Screenshot](/assets/cherrypickings/proposals_nms%20copy%204.png)
+![Screenshot](/assets/cherrypickings/proposals_nms%20copy%205.png)
+![Screenshot](/assets/cherrypickings/proposals_nms%20copy.png)
+![Screenshot](/assets/cherrypickings/proposals_nms.png)
 
-
-TODO: RPN training for region proposals
-- check&vis with nms applied (code test.py) <- Topk, nms implementation on feature level?(anchor should be feature level mapped?)
-- make mAP evaluation code from COCOeval format output as COCO annotation form
-- ROI align
+TODO: ROI align
